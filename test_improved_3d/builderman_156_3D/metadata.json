@@ -1,0 +1,52 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2006-03-08T17:17:52.9Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": true,
+    "id": 156,
+    "name": "builderman",
+    "displayName": "builderman"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.47562,
+        "y": 105.332,
+        "z": -5.14975
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.86593,
+        "y": 100.01,
+        "z": -0.968973
+      },
+      "max": {
+        "x": 1.86593,
+        "y": 105.704,
+        "z": 0.669517
+      }
+    },
+    "mtl": "30DAY-f6cb8ce78f121670a2fa16129a398c84",
+    "obj": "30DAY-8ef1bba9d13b79b6bacd058754347c72",
+    "textures": [
+      "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+      "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+      "30DAY-e9e0401efc3aa30dcc5d98378a778021"
+    ]
+  },
+  "download_timestamp": "2025-09-15 16:41:50",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

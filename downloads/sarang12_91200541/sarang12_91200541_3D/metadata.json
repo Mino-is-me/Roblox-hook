@@ -1,0 +1,51 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2015-08-10T01:42:31.42Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 91200541,
+    "name": "sarang12",
+    "displayName": "sarang12"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.55152,
+        "y": 105.228,
+        "z": -5.37588
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.88571,
+        "y": 99.9417,
+        "z": -1.02468
+      },
+      "max": {
+        "x": 1.96862,
+        "y": 105.421,
+        "z": 0.813123
+      }
+    },
+    "mtl": "30DAY-47dce4154c4675da039f6fec8a2c4af7",
+    "obj": "30DAY-e6933428789084a3205d312afbd52133",
+    "textures": [
+      "30DAY-6c526de974ae2ed520943ae0000f8219",
+      "30DAY-b42566df1c5025b3b49cfb90e4109530"
+    ]
+  },
+  "download_timestamp": "2025-09-15 16:47:39",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

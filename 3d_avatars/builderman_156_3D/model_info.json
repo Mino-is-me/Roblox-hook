@@ -1,0 +1,155 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2006-03-08T17:17:52.9Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": true,
+    "id": 156,
+    "name": "builderman",
+    "displayName": "builderman"
+  },
+  "avatar_data": {
+    "scales": {
+      "height": 1.0,
+      "width": 1.0,
+      "head": 1.0,
+      "depth": 1.0,
+      "proportion": 0.0,
+      "bodyType": 0.0
+    },
+    "playerAvatarType": "R15",
+    "bodyColors": {
+      "headColorId": 125,
+      "torsoColorId": 125,
+      "rightArmColorId": 125,
+      "leftArmColorId": 125,
+      "rightLegColorId": 125,
+      "leftLegColorId": 125
+    },
+    "assets": [
+      {
+        "id": 11844853,
+        "name": "Turbo Builders Club Hard Hat",
+        "assetType": {
+          "id": 8,
+          "name": "Hat"
+        },
+        "currentVersionId": 883360292
+      },
+      {
+        "id": 27112025,
+        "name": "Roblox 2.0 Torso",
+        "assetType": {
+          "id": 27,
+          "name": "Torso"
+        },
+        "currentVersionId": 11201616558
+      },
+      {
+        "id": 27112039,
+        "name": "Roblox 2.0 Right Arm",
+        "assetType": {
+          "id": 28,
+          "name": "RightArm"
+        },
+        "currentVersionId": 11201616570
+      },
+      {
+        "id": 27112052,
+        "name": "Roblox 2.0 Left Arm",
+        "assetType": {
+          "id": 29,
+          "name": "LeftArm"
+        },
+        "currentVersionId": 11201616588
+      },
+      {
+        "id": 27112056,
+        "name": "Roblox 2.0 Left Leg",
+        "assetType": {
+          "id": 30,
+          "name": "LeftLeg"
+        },
+        "currentVersionId": 11201616595
+      },
+      {
+        "id": 27112068,
+        "name": "Roblox 2.0 Right Leg",
+        "assetType": {
+          "id": 31,
+          "name": "RightLeg"
+        },
+        "currentVersionId": 11201616609
+      },
+      {
+        "id": 129458426,
+        "name": "Jeans",
+        "assetType": {
+          "id": 12,
+          "name": "Pants"
+        },
+        "currentVersionId": 304919540
+      },
+      {
+        "id": 3670737444,
+        "name": "Roblox Shirt - Simple Pattern",
+        "assetType": {
+          "id": 11,
+          "name": "Shirt"
+        },
+        "currentVersionId": 4754198745
+      },
+      {
+        "id": 10638267973,
+        "name": "Stevie Standard - Head",
+        "assetType": {
+          "id": 79,
+          "name": "DynamicHead"
+        },
+        "currentVersionId": 25035095467
+      },
+      {
+        "id": 10647852134,
+        "name": "DefaultFallBackMood",
+        "assetType": {
+          "id": 78,
+          "name": "MoodAnimation"
+        },
+        "currentVersionId": 18941427668
+      }
+    ],
+    "defaultShirtApplied": false,
+    "defaultPantsApplied": false,
+    "emotes": []
+  },
+  "model_files": {
+    "avatar_composition": "avatar_composition.json",
+    "studio_script": "roblox_studio_script.lua",
+    "textures_folder": "textures/"
+  },
+  "download_timestamp": "2025-09-11 11:30:47",
+  "instructions": {
+    "roblox_studio": "Roblox Studio에서 roblox_studio_script.lua 스크립트를 실행하여 아바타를 재구성하세요",
+    "blender_alternative": "각 아이템 ID를 사용하여 Roblox 에셋을 개별적으로 추출할 수 있습니다",
+    "note": "로블록스에서 직접 OBJ 다운로드는 더 이상 지원되지 않습니다. 대신 아바타 구성 정보를 제공합니다."
+  },
+  "asset_count": 10,
+  "avatar_type": "R15",
+  "body_colors": {
+    "headColorId": 125,
+    "torsoColorId": 125,
+    "rightArmColorId": 125,
+    "leftArmColorId": 125,
+    "rightLegColorId": 125,
+    "leftLegColorId": 125
+  },
+  "scales": {
+    "height": 1.0,
+    "width": 1.0,
+    "head": 1.0,
+    "depth": 1.0,
+    "proportion": 0.0,
+    "bodyType": 0.0
+  }
+}

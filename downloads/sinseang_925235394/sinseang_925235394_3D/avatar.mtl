@@ -1,0 +1,46 @@
+newmtl Player15Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-5754a778a99886aad4a4400ad2d90a98
+map_Kd 30DAY-5754a778a99886aad4a4400ad2d90a98
+map_d 30DAY-5754a778a99886aad4a4400ad2d90a98
+
+newmtl Player1Mtl
+Material Color
+Ka 0.972549 0.972549 0.972549
+Kd 0.972549 0.972549 0.972549
+Ks 0.0839062 0.0839062 0.0839062 
+
+d 1
+
+Ns 255
+
+map_Ka 30DAY-17fec863e83f748dec04a338fd3ee858
+map_Kd 30DAY-17fec863e83f748dec04a338fd3ee858
+map_d 30DAY-17fec863e83f748dec04a338fd3ee858
+
+map_Bump 30DAY-ba15d6b074c2401f047393e068f3fe70
+
+map_Ns 30DAY-ecad4fc918f19b5ac5f0b689e42e4c58
+
+newmtl Handle1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-423c8b644651a6bb37d6d18bec6d4d99
+map_Kd 30DAY-423c8b644651a6bb37d6d18bec6d4d99
+map_d 30DAY-423c8b644651a6bb37d6d18bec6d4d99
+

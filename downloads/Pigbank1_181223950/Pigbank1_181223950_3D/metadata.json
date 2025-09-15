@@ -1,0 +1,50 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2016-11-14T02:58:59.243Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 181223950,
+    "name": "Pigbank1",
+    "displayName": "Pigbank1"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.25183,
+        "y": 104.547,
+        "z": -4.59824
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.88371,
+        "y": 99.9408,
+        "z": -0.838837
+      },
+      "max": {
+        "x": 1.9614,
+        "y": 104.607,
+        "z": 0.587164
+      }
+    },
+    "mtl": "30DAY-9347a0cda3ca2cc5d9690925fe9fed82",
+    "obj": "30DAY-e8a10a3832bd97ce821f3f8c279ee3c7",
+    "textures": [
+      "30DAY-6cffaa7b0c3df689d1148593de7f743e"
+    ]
+  },
+  "download_timestamp": "2025-09-15 16:49:20",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

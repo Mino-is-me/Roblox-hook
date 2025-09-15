@@ -1,0 +1,218 @@
+{
+  "user_info": {
+    "description": "Welcome to the Roblox profile! This is where you can check out the newest items in the catalog, and get a jumpstart on exploring and building on our Imagination Platform. If you want news on updates to the Roblox platform, or great new experiences to play with friends, check out blog.roblox.com. Please note, this is an automated account. If you need to reach Roblox for any customer service needs find help at www.roblox.com/help",
+    "created": "2006-02-27T21:06:40.3Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": true,
+    "id": 1,
+    "name": "Roblox",
+    "displayName": "Roblox"
+  },
+  "avatar_data": {
+    "scales": {
+      "height": 1.0,
+      "width": 1.0,
+      "head": 1.0,
+      "depth": 1.0,
+      "proportion": 0.0,
+      "bodyType": 0.0
+    },
+    "playerAvatarType": "R15",
+    "bodyColors": {
+      "headColorId": 194,
+      "torsoColorId": 23,
+      "rightArmColorId": 194,
+      "leftArmColorId": 194,
+      "rightLegColorId": 102,
+      "leftLegColorId": 102
+    },
+    "assets": [
+      {
+        "id": 301811432,
+        "name": "Oakley Pants",
+        "assetType": {
+          "id": 12,
+          "name": "Pants"
+        },
+        "currentVersionId": 10151325111
+      },
+      {
+        "id": 607702162,
+        "name": "Roblox Baseball Cap",
+        "assetType": {
+          "id": 8,
+          "name": "Hat"
+        },
+        "currentVersionId": 1171146069
+      },
+      {
+        "id": 607785314,
+        "name": "ROBLOX Jacket",
+        "assetType": {
+          "id": 11,
+          "name": "Shirt"
+        },
+        "currentVersionId": 955993454
+      },
+      {
+        "id": 2510230574,
+        "name": "Rthro Climb",
+        "assetType": {
+          "id": 48,
+          "name": "ClimbAnimation"
+        },
+        "currentVersionId": 13806699923
+      },
+      {
+        "id": 2510233257,
+        "name": "Rthro Fall",
+        "assetType": {
+          "id": 50,
+          "name": "FallAnimation"
+        },
+        "currentVersionId": 13806699941
+      },
+      {
+        "id": 2510235063,
+        "name": "Rthro Idle",
+        "assetType": {
+          "id": 51,
+          "name": "IdleAnimation"
+        },
+        "currentVersionId": 17686818829
+      },
+      {
+        "id": 2510236649,
+        "name": "Rthro Jump",
+        "assetType": {
+          "id": 52,
+          "name": "JumpAnimation"
+        },
+        "currentVersionId": 13806699943
+      },
+      {
+        "id": 2510238627,
+        "name": "Rthro Run",
+        "assetType": {
+          "id": 53,
+          "name": "RunAnimation"
+        },
+        "currentVersionId": 13806699940
+      },
+      {
+        "id": 2510240941,
+        "name": "Rthro Swim",
+        "assetType": {
+          "id": 54,
+          "name": "SwimAnimation"
+        },
+        "currentVersionId": 13806699946
+      },
+      {
+        "id": 2510242378,
+        "name": "Rthro Walk",
+        "assetType": {
+          "id": 55,
+          "name": "WalkAnimation"
+        },
+        "currentVersionId": 13806699951
+      },
+      {
+        "id": 10638267973,
+        "name": "Stevie Standard - Head",
+        "assetType": {
+          "id": 79,
+          "name": "DynamicHead"
+        },
+        "currentVersionId": 25035095467
+      },
+      {
+        "id": 10647852134,
+        "name": "DefaultFallBackMood",
+        "assetType": {
+          "id": 78,
+          "name": "MoodAnimation"
+        },
+        "currentVersionId": 18941427668
+      },
+      {
+        "id": 12995014400,
+        "name": "Man - Left Arm",
+        "assetType": {
+          "id": 29,
+          "name": "LeftArm"
+        },
+        "currentVersionId": 16754708924
+      },
+      {
+        "id": 12995015868,
+        "name": "Man - Left Leg",
+        "assetType": {
+          "id": 30,
+          "name": "LeftLeg"
+        },
+        "currentVersionId": 16754710931
+      },
+      {
+        "id": 12995017412,
+        "name": "Man - Right Arm",
+        "assetType": {
+          "id": 28,
+          "name": "RightArm"
+        },
+        "currentVersionId": 16754713361
+      },
+      {
+        "id": 12995018829,
+        "name": "Man - Right Leg",
+        "assetType": {
+          "id": 31,
+          "name": "RightLeg"
+        },
+        "currentVersionId": 16754715470
+      },
+      {
+        "id": 12995020128,
+        "name": "Man - Torso",
+        "assetType": {
+          "id": 27,
+          "name": "Torso"
+        },
+        "currentVersionId": 16754717279
+      }
+    ],
+    "defaultShirtApplied": false,
+    "defaultPantsApplied": false,
+    "emotes": []
+  },
+  "model_files": {
+    "avatar_composition": "avatar_composition.json",
+    "studio_script": "roblox_studio_script.lua",
+    "textures_folder": "textures/"
+  },
+  "download_timestamp": "2025-09-11 11:30:10",
+  "instructions": {
+    "roblox_studio": "Roblox Studio에서 roblox_studio_script.lua 스크립트를 실행하여 아바타를 재구성하세요",
+    "blender_alternative": "각 아이템 ID를 사용하여 Roblox 에셋을 개별적으로 추출할 수 있습니다",
+    "note": "로블록스에서 직접 OBJ 다운로드는 더 이상 지원되지 않습니다. 대신 아바타 구성 정보를 제공합니다."
+  },
+  "asset_count": 17,
+  "avatar_type": "R15",
+  "body_colors": {
+    "headColorId": 194,
+    "torsoColorId": 23,
+    "rightArmColorId": 194,
+    "leftArmColorId": 194,
+    "rightLegColorId": 102,
+    "leftLegColorId": 102
+  },
+  "scales": {
+    "height": 1.0,
+    "width": 1.0,
+    "head": 1.0,
+    "depth": 1.0,
+    "proportion": 0.0,
+    "bodyType": 0.0
+  }
+}

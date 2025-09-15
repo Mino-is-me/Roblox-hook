@@ -1,0 +1,52 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2020-05-23T06:08:17.117Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 1647988772,
+    "name": "whitehyeonX",
+    "displayName": "whitehyeonX"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.73458,
+        "y": 105.847,
+        "z": -5.47686
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.88571,
+        "y": 99.9417,
+        "z": -0.840136
+      },
+      "max": {
+        "x": 1.96862,
+        "y": 106.264,
+        "z": 0.832206
+      }
+    },
+    "mtl": "30DAY-2578cf79f4a651af9f94666dbfbac7c4",
+    "obj": "30DAY-386a10ec423fd71b9a17e8c8072d8b47",
+    "textures": [
+      "30DAY-8e20728a7a298bfbc14441ce95a46d26",
+      "30DAY-d51b868f2a09d1df6a507034c1926d74",
+      "30DAY-9ae01dc82629b0a03f15bd0105ee74b0"
+    ]
+  },
+  "download_timestamp": "2025-09-15 16:50:39",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "avatar_type": "R15",
+  "scales": {
+    "height": 1.0,
+    "width": 1.0,
+    "head": 1.0,
+    "depth": 1.0,
+    "proportion": 0.0,
+    "bodyType": 0.0
+  },
+  "body_colors": {
+    "headColorId": 194,
+    "torsoColorId": 23,
+    "rightArmColorId": 194,
+    "leftArmColorId": 194,
+    "rightLegColorId": 102,
+    "leftLegColorId": 102
+  },
+  "assets": [],
+  "note": "로블록스에서 직접 OBJ 다운로드는 지원되지 않습니다. 이 정보를 사용하여 Roblox Studio에서 아바타를 재구성할 수 있습니다."
+}
