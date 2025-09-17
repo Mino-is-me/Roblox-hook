@@ -1,0 +1,56 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2016-10-26T11:40:35.077Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 174813660,
+    "name": "Sleepark",
+    "displayName": "Sleepark"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.50759,
+        "y": 105.419,
+        "z": -5.31971
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.78447,
+        "y": 100.01,
+        "z": -1.24351
+      },
+      "max": {
+        "x": 1.7847,
+        "y": 105.812,
+        "z": 0.733855
+      }
+    },
+    "mtl": "30DAY-4bba3a8ddcd2368f8a284065060e38a4",
+    "obj": "30DAY-6cb80bfba283f385e8f296bd49d1de1d",
+    "textures": [
+      "30DAY-813c3753c449d263b363af5922a66d1e",
+      "30DAY-3c50906c4684959f18ea51609bb5c26c",
+      "30DAY-56cd3a120e655ac7269e819b37e23aab",
+      "30DAY-a5d603f735de67994e86e9be0ea68091",
+      "30DAY-281f34629e711b4ce8abbe947eff289c",
+      "30DAY-aa760836cdd96100ca8b3bf1e7f1177f",
+      "30DAY-49edf7f0423c07a0f1a65789a17cb60b"
+    ]
+  },
+  "download_timestamp": "2025-09-17 11:57:50",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

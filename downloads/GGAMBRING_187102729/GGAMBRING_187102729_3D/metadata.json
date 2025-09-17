@@ -1,0 +1,56 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2016-11-27T11:45:58.097Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 187102729,
+    "name": "GGAMBRING",
+    "displayName": "GGAMBRING"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.61976,
+        "y": 105.496,
+        "z": -5.14585
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.79229,
+        "y": 99.9423,
+        "z": -0.894207
+      },
+      "max": {
+        "x": 1.87432,
+        "y": 105.764,
+        "z": 1.37086
+      }
+    },
+    "mtl": "30DAY-d83c1be16c21ea8fa22488d99a03d8e9",
+    "obj": "30DAY-b15a406e2a53f5828c0a0624c25d9df2",
+    "textures": [
+      "30DAY-b33c81a4f8d739e1422d877bc3a025c2",
+      "30DAY-f9c741361aab7fe426f1a13f7d7dcebf",
+      "30DAY-4f35c83e72d60511105333f2e7879e0e",
+      "30DAY-229bf82b651b63ef4d96b80486ad83b5",
+      "30DAY-df6d3893f75465c69e682e46cc2ae8c0",
+      "30DAY-ce8459db58a97561e12fa4557f2af310",
+      "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff"
+    ]
+  },
+  "download_timestamp": "2025-09-17 11:59:47",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

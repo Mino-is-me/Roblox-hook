@@ -1,0 +1,66 @@
+{
+  "user_id": 48232800,
+  "username": "ddotty",
+  "collected_at": "2025-09-17 15:46:13",
+  "attachment_info": {
+    "user_id": 48232800,
+    "collected_at": "2025-09-17 15:46:12",
+    "attachment_data": {
+      "avatar_details": {
+        "scales": {
+          "height": 1.0,
+          "width": 1.0,
+          "head": 1.0,
+          "depth": 1.0,
+          "proportion": 0.0,
+          "bodyType": 0.0
+        },
+        "playerAvatarType": "R15",
+        "bodyColors": {
+          "headColorId": 194,
+          "torsoColorId": 37,
+          "rightArmColorId": 194,
+          "leftArmColorId": 194,
+          "rightLegColorId": 102,
+          "leftLegColorId": 102
+        },
+        "assets": [
+          {
+            "id": 48474313,
+            "name": "Red Roblox Cap",
+            "assetType": {
+              "id": 8,
+              "name": "Hat"
+            },
+            "currentVersionId": 883362718
+          },
+          {
+            "id": 10638267973,
+            "name": "Stevie Standard - Head",
+            "assetType": {
+              "id": 79,
+              "name": "DynamicHead"
+            },
+            "currentVersionId": 25035095467
+          },
+          {
+            "id": 10647852134,
+            "name": "DefaultFallBackMood",
+            "assetType": {
+              "id": 78,
+              "name": "MoodAnimation"
+            },
+            "currentVersionId": 18941427668
+          }
+        ],
+        "defaultShirtApplied": false,
+        "defaultPantsApplied": false,
+        "emotes": []
+      }
+    }
+  },
+  "attachment_3d": {
+    "user_id": 48232800,
+    "3d_attachments": {}
+  }
+}

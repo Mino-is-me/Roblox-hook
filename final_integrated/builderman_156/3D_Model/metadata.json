@@ -1,0 +1,252 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2006-03-08T17:17:52.9Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": true,
+    "id": 156,
+    "name": "builderman",
+    "displayName": "builderman"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.47562,
+        "y": 105.332,
+        "z": -5.14975
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.86593,
+        "y": 100.01,
+        "z": -0.968973
+      },
+      "max": {
+        "x": 1.86593,
+        "y": 105.704,
+        "z": 0.669517
+      }
+    },
+    "mtl": "30DAY-f6cb8ce78f121670a2fa16129a398c84",
+    "obj": "30DAY-8ef1bba9d13b79b6bacd058754347c72",
+    "textures": [
+      "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+      "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+      "30DAY-e9e0401efc3aa30dcc5d98378a778021"
+    ]
+  },
+  "download_timestamp": "2025-09-17 15:43:16",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  },
+  "extended_avatar_info": {
+    "user_id": 156,
+    "collected_at": "2025-09-17 15:43:13",
+    "api_responses": {
+      "avatar_config": {
+        "scales": {
+          "height": 1.0,
+          "width": 1.0,
+          "head": 1.0,
+          "depth": 1.0,
+          "proportion": 0.0,
+          "bodyType": 0.0
+        },
+        "playerAvatarType": "R15",
+        "bodyColors": {
+          "headColorId": 125,
+          "torsoColorId": 125,
+          "rightArmColorId": 125,
+          "leftArmColorId": 125,
+          "rightLegColorId": 125,
+          "leftLegColorId": 125
+        },
+        "assets": [
+          {
+            "id": 11844853,
+            "name": "Turbo Builders Club Hard Hat",
+            "assetType": {
+              "id": 8,
+              "name": "Hat"
+            },
+            "currentVersionId": 883360292
+          },
+          {
+            "id": 27112025,
+            "name": "Roblox 2.0 Torso",
+            "assetType": {
+              "id": 27,
+              "name": "Torso"
+            },
+            "currentVersionId": 11201616558
+          },
+          {
+            "id": 27112039,
+            "name": "Roblox 2.0 Right Arm",
+            "assetType": {
+              "id": 28,
+              "name": "RightArm"
+            },
+            "currentVersionId": 11201616570
+          },
+          {
+            "id": 27112052,
+            "name": "Roblox 2.0 Left Arm",
+            "assetType": {
+              "id": 29,
+              "name": "LeftArm"
+            },
+            "currentVersionId": 11201616588
+          },
+          {
+            "id": 27112056,
+            "name": "Roblox 2.0 Left Leg",
+            "assetType": {
+              "id": 30,
+              "name": "LeftLeg"
+            },
+            "currentVersionId": 11201616595
+          },
+          {
+            "id": 27112068,
+            "name": "Roblox 2.0 Right Leg",
+            "assetType": {
+              "id": 31,
+              "name": "RightLeg"
+            },
+            "currentVersionId": 11201616609
+          },
+          {
+            "id": 129458426,
+            "name": "Jeans",
+            "assetType": {
+              "id": 12,
+              "name": "Pants"
+            },
+            "currentVersionId": 304919540
+          },
+          {
+            "id": 3670737444,
+            "name": "Roblox Shirt - Simple Pattern",
+            "assetType": {
+              "id": 11,
+              "name": "Shirt"
+            },
+            "currentVersionId": 4754198745
+          },
+          {
+            "id": 10638267973,
+            "name": "Stevie Standard - Head",
+            "assetType": {
+              "id": 79,
+              "name": "DynamicHead"
+            },
+            "currentVersionId": 25035095467
+          },
+          {
+            "id": 10647852134,
+            "name": "DefaultFallBackMood",
+            "assetType": {
+              "id": 78,
+              "name": "MoodAnimation"
+            },
+            "currentVersionId": 18941427668
+          }
+        ],
+        "defaultShirtApplied": false,
+        "defaultPantsApplied": false,
+        "emotes": []
+      },
+      "currently_wearing": {
+        "assetIds": [
+          11844853,
+          27112025,
+          27112039,
+          27112052,
+          27112056,
+          27112068,
+          129458426,
+          3670737444,
+          10638267973,
+          10647852134
+        ]
+      },
+      "thumbnails": {
+        "data": [
+          {
+            "targetId": 156,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-882C70E071E5997E51F8CB373002AFC3-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      },
+      "groups": {
+        "data": [
+          {
+            "group": {
+              "id": 9,
+              "name": "Turbo Builders Club",
+              "memberCount": 500659,
+              "hasVerifiedBadge": false
+            },
+            "role": {
+              "id": 11,
+              "name": "Owner",
+              "rank": 255
+            }
+          },
+          {
+            "group": {
+              "id": 8,
+              "name": "Builders Club",
+              "memberCount": 1318107,
+              "hasVerifiedBadge": false
+            },
+            "role": {
+              "id": 41,
+              "name": "Owner",
+              "rank": 255
+            }
+          },
+          {
+            "group": {
+              "id": 3829,
+              "name": "Staff",
+              "memberCount": 271865,
+              "hasVerifiedBadge": false
+            },
+            "role": {
+              "id": 15271,
+              "name": "ROBLOX Staff",
+              "rank": 250
+            }
+          },
+          {
+            "group": {
+              "id": 5,
+              "name": "Builderman",
+              "memberCount": 1036775,
+              "hasVerifiedBadge": false
+            },
+            "role": {
+              "id": 89,
+              "name": "Owner",
+              "rank": 255
+            }
+          }
+        ]
+      }
+    }
+  }
+}

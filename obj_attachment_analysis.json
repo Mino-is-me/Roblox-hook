@@ -1,0 +1,3342 @@
+{
+  "scanned_at": "2025-09-17 15:47:41",
+  "base_folder": "E:\\Git\\Roblox-hook",
+  "avatar_folders": [
+    {
+      "folder_path": "example_3d\\Roblox_1_3D",
+      "folder_name": "Roblox_1_3D",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "3d_avatars",
+      "folder_name": "3d_avatars",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\Pigbank1_181223950\\Pigbank1_181223950_3D",
+      "folder_name": "Pigbank1_181223950_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\Pigbank1_181223950\\Pigbank1_181223950_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 978,
+              "name": "Player2"
+            },
+            {
+              "line": 1551,
+              "name": "Player3"
+            },
+            {
+              "line": 2761,
+              "name": "Player4"
+            },
+            {
+              "line": 3726,
+              "name": "Player5"
+            },
+            {
+              "line": 4299,
+              "name": "Player6"
+            },
+            {
+              "line": 5509,
+              "name": "Player7"
+            },
+            {
+              "line": 6547,
+              "name": "Player8"
+            },
+            {
+              "line": 7219,
+              "name": "Player9"
+            },
+            {
+              "line": 7791,
+              "name": "Player10"
+            },
+            {
+              "line": 8829,
+              "name": "Player11"
+            },
+            {
+              "line": 9501,
+              "name": "Player12"
+            },
+            {
+              "line": 10073,
+              "name": "Player13"
+            },
+            {
+              "line": 11647,
+              "name": "Player14"
+            },
+            {
+              "line": 14154,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 3645,
+          "faces": 3730,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\Pigbank1_181223950\\Pigbank1_181223950_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Player1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-6cffaa7b0c3df689d1148593de7f743e",
+                "map_Kd": "30DAY-6cffaa7b0c3df689d1148593de7f743e",
+                "map_d": "30DAY-6cffaa7b0c3df689d1148593de7f743e"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-6cffaa7b0c3df689d1148593de7f743e",
+              "line": 11
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-6cffaa7b0c3df689d1148593de7f743e",
+              "line": 12
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-6cffaa7b0c3df689d1148593de7f743e",
+              "line": 13
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_3d",
+      "folder_name": "test_3d",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_improved_3d\\Roblox_1_3D",
+      "folder_name": "Roblox_1_3D",
+      "obj_files": [
+        {
+          "file_path": "test_improved_3d\\Roblox_1_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 1575,
+              "name": "Handle1"
+            },
+            {
+              "line": 2974,
+              "name": "Player2"
+            },
+            {
+              "line": 4012,
+              "name": "Player3"
+            },
+            {
+              "line": 6519,
+              "name": "Player4"
+            },
+            {
+              "line": 7729,
+              "name": "Player5"
+            },
+            {
+              "line": 8302,
+              "name": "Player6"
+            },
+            {
+              "line": 9340,
+              "name": "Player7"
+            },
+            {
+              "line": 10317,
+              "name": "Player8"
+            },
+            {
+              "line": 11527,
+              "name": "Player9"
+            },
+            {
+              "line": 12100,
+              "name": "Player10"
+            },
+            {
+              "line": 13065,
+              "name": "Player11"
+            },
+            {
+              "line": 18466,
+              "name": "Player12"
+            },
+            {
+              "line": 19038,
+              "name": "Player13"
+            },
+            {
+              "line": 19610,
+              "name": "Player14"
+            },
+            {
+              "line": 20282,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 5001,
+          "faces": 5822,
+          "materials": []
+        }
+      ],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\sinseang_925235394\\sinseang_925235394_3D",
+      "folder_name": "sinseang_925235394_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\sinseang_925235394\\sinseang_925235394_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Handle1"
+            },
+            {
+              "line": 13117,
+              "name": "Player1"
+            },
+            {
+              "line": 14112,
+              "name": "Player2"
+            },
+            {
+              "line": 15182,
+              "name": "Player3"
+            },
+            {
+              "line": 17006,
+              "name": "Player4"
+            },
+            {
+              "line": 18534,
+              "name": "Player5"
+            },
+            {
+              "line": 20022,
+              "name": "Player6"
+            },
+            {
+              "line": 21415,
+              "name": "Player7"
+            },
+            {
+              "line": 23644,
+              "name": "Player8"
+            },
+            {
+              "line": 27354,
+              "name": "Player9"
+            },
+            {
+              "line": 28873,
+              "name": "Player10"
+            },
+            {
+              "line": 30373,
+              "name": "Player11"
+            },
+            {
+              "line": 31808,
+              "name": "Player12"
+            },
+            {
+              "line": 33653,
+              "name": "Player13"
+            },
+            {
+              "line": 34699,
+              "name": "Player14"
+            },
+            {
+              "line": 35802,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 9791,
+          "faces": 8774,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\sinseang_925235394\\sinseang_925235394_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Player15Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-5754a778a99886aad4a4400ad2d90a98",
+                "map_Kd": "30DAY-5754a778a99886aad4a4400ad2d90a98",
+                "map_d": "30DAY-5754a778a99886aad4a4400ad2d90a98"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.972549 0.972549 0.972549",
+                "Kd": "0.972549 0.972549 0.972549",
+                "Ks": "0.0839062 0.0839062 0.0839062",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-17fec863e83f748dec04a338fd3ee858",
+                "map_Kd": "30DAY-17fec863e83f748dec04a338fd3ee858",
+                "map_d": "30DAY-17fec863e83f748dec04a338fd3ee858",
+                "map_Bump": "30DAY-ba15d6b074c2401f047393e068f3fe70",
+                "map_Ns": "30DAY-ecad4fc918f19b5ac5f0b689e42e4c58"
+              }
+            },
+            {
+              "name": "Handle1Mtl",
+              "line": 33,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-423c8b644651a6bb37d6d18bec6d4d99",
+                "map_Kd": "30DAY-423c8b644651a6bb37d6d18bec6d4d99",
+                "map_d": "30DAY-423c8b644651a6bb37d6d18bec6d4d99"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Player15Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-5754a778a99886aad4a4400ad2d90a98",
+              "line": 11
+            },
+            {
+              "material": "Player15Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-5754a778a99886aad4a4400ad2d90a98",
+              "line": 12
+            },
+            {
+              "material": "Player15Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-5754a778a99886aad4a4400ad2d90a98",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-17fec863e83f748dec04a338fd3ee858",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-17fec863e83f748dec04a338fd3ee858",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-17fec863e83f748dec04a338fd3ee858",
+              "line": 27
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Bump",
+              "texture_file": "30DAY-ba15d6b074c2401f047393e068f3fe70",
+              "line": 29
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ns",
+              "texture_file": "30DAY-ecad4fc918f19b5ac5f0b689e42e4c58",
+              "line": 31
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-423c8b644651a6bb37d6d18bec6d4d99",
+              "line": 43
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-423c8b644651a6bb37d6d18bec6d4d99",
+              "line": 44
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-423c8b644651a6bb37d6d18bec6d4d99",
+              "line": 45
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_real_3d",
+      "folder_name": "test_real_3d",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\SUHYEN_138551484\\SUHYEN_138551484_3D",
+      "folder_name": "SUHYEN_138551484_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\SUHYEN_138551484\\SUHYEN_138551484_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 1614,
+              "name": "Player2"
+            },
+            {
+              "line": 2352,
+              "name": "Player3"
+            },
+            {
+              "line": 3584,
+              "name": "Player4"
+            },
+            {
+              "line": 5188,
+              "name": "Player5"
+            },
+            {
+              "line": 5929,
+              "name": "Player6"
+            },
+            {
+              "line": 7161,
+              "name": "Player7"
+            },
+            {
+              "line": 8773,
+              "name": "Player8"
+            },
+            {
+              "line": 9742,
+              "name": "Player9"
+            },
+            {
+              "line": 10708,
+              "name": "Player10"
+            },
+            {
+              "line": 12320,
+              "name": "Player11"
+            },
+            {
+              "line": 13292,
+              "name": "Player12"
+            },
+            {
+              "line": 14261,
+              "name": "Player13"
+            },
+            {
+              "line": 15067,
+              "name": "Player14"
+            },
+            {
+              "line": 16879,
+              "name": "Player15"
+            },
+            {
+              "line": 17511,
+              "name": "Handle1"
+            }
+          ],
+          "comments": [],
+          "vertices": 5424,
+          "faces": 4346,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\SUHYEN_138551484\\SUHYEN_138551484_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-7e3d26b0c766cf13a13de59f77019eaa",
+                "map_Kd": "30DAY-7e3d26b0c766cf13a13de59f77019eaa",
+                "map_d": "30DAY-7e3d26b0c766cf13a13de59f77019eaa"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-028034c7bd4799676041da41167d64c5",
+                "map_Kd": "30DAY-028034c7bd4799676041da41167d64c5",
+                "map_d": "30DAY-028034c7bd4799676041da41167d64c5"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-7e3d26b0c766cf13a13de59f77019eaa",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-7e3d26b0c766cf13a13de59f77019eaa",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-7e3d26b0c766cf13a13de59f77019eaa",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-028034c7bd4799676041da41167d64c5",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-028034c7bd4799676041da41167d64c5",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-028034c7bd4799676041da41167d64c5",
+              "line": 27
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\Sleepark_174813660\\Sleepark_174813660_3D",
+      "folder_name": "Sleepark_174813660_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\Sleepark_174813660\\Sleepark_174813660_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Handle1"
+            },
+            {
+              "line": 3926,
+              "name": "Handle2"
+            },
+            {
+              "line": 10119,
+              "name": "Handle3"
+            },
+            {
+              "line": 14815,
+              "name": "Player1"
+            },
+            {
+              "line": 16428,
+              "name": "Player2"
+            },
+            {
+              "line": 17166,
+              "name": "Player3"
+            },
+            {
+              "line": 18302,
+              "name": "Player4"
+            },
+            {
+              "line": 19906,
+              "name": "Player5"
+            },
+            {
+              "line": 20647,
+              "name": "Player6"
+            },
+            {
+              "line": 21783,
+              "name": "Player7"
+            },
+            {
+              "line": 23395,
+              "name": "Player8"
+            },
+            {
+              "line": 24358,
+              "name": "Player9"
+            },
+            {
+              "line": 25970,
+              "name": "Player10"
+            },
+            {
+              "line": 26942,
+              "name": "Player11"
+            },
+            {
+              "line": 27855,
+              "name": "Player12"
+            },
+            {
+              "line": 29241,
+              "name": "Player13"
+            }
+          ],
+          "comments": [],
+          "vertices": 8020,
+          "faces": 7517,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\Sleepark_174813660\\Sleepark_174813660_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Player1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-a5d603f735de67994e86e9be0ea68091",
+                "map_Kd": "30DAY-a5d603f735de67994e86e9be0ea68091",
+                "map_d": "30DAY-a5d603f735de67994e86e9be0ea68091"
+              }
+            },
+            {
+              "name": "Handle3Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-813c3753c449d263b363af5922a66d1e",
+                "map_Kd": "30DAY-813c3753c449d263b363af5922a66d1e",
+                "map_d": "30DAY-813c3753c449d263b363af5922a66d1e"
+              }
+            },
+            {
+              "name": "Handle2Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.639216 0.635294 0.647059",
+                "Kd": "0.639216 0.635294 0.647059",
+                "Ks": "0.055148 0.0548097 0.0558247",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-56cd3a120e655ac7269e819b37e23aab",
+                "map_Kd": "30DAY-56cd3a120e655ac7269e819b37e23aab",
+                "map_d": "30DAY-56cd3a120e655ac7269e819b37e23aab",
+                "map_Ns": "30DAY-3c50906c4684959f18ea51609bb5c26c"
+              }
+            },
+            {
+              "name": "Handle1Mtl",
+              "line": 45,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.639216 0.635294 0.647059",
+                "Kd": "0.639216 0.635294 0.647059",
+                "Ks": "0.055148 0.0548097 0.0558247",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-49edf7f0423c07a0f1a65789a17cb60b",
+                "map_Kd": "30DAY-49edf7f0423c07a0f1a65789a17cb60b",
+                "map_d": "30DAY-49edf7f0423c07a0f1a65789a17cb60b",
+                "map_Bump": "30DAY-aa760836cdd96100ca8b3bf1e7f1177f",
+                "map_Ns": "30DAY-281f34629e711b4ce8abbe947eff289c"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-a5d603f735de67994e86e9be0ea68091",
+              "line": 11
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-a5d603f735de67994e86e9be0ea68091",
+              "line": 12
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-a5d603f735de67994e86e9be0ea68091",
+              "line": 13
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-813c3753c449d263b363af5922a66d1e",
+              "line": 25
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-813c3753c449d263b363af5922a66d1e",
+              "line": 26
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-813c3753c449d263b363af5922a66d1e",
+              "line": 27
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-56cd3a120e655ac7269e819b37e23aab",
+              "line": 39
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-56cd3a120e655ac7269e819b37e23aab",
+              "line": 40
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-56cd3a120e655ac7269e819b37e23aab",
+              "line": 41
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Ns",
+              "texture_file": "30DAY-3c50906c4684959f18ea51609bb5c26c",
+              "line": 43
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-49edf7f0423c07a0f1a65789a17cb60b",
+              "line": 55
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-49edf7f0423c07a0f1a65789a17cb60b",
+              "line": 56
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-49edf7f0423c07a0f1a65789a17cb60b",
+              "line": 57
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Bump",
+              "texture_file": "30DAY-aa760836cdd96100ca8b3bf1e7f1177f",
+              "line": 59
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ns",
+              "texture_file": "30DAY-281f34629e711b4ce8abbe947eff289c",
+              "line": 61
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_username_3d\\builderman_156_3D",
+      "folder_name": "builderman_156_3D",
+      "obj_files": [
+        {
+          "file_path": "test_username_3d\\builderman_156_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 5402,
+              "name": "Player2"
+            },
+            {
+              "line": 5998,
+              "name": "Player3"
+            },
+            {
+              "line": 6572,
+              "name": "Player4"
+            },
+            {
+              "line": 7002,
+              "name": "Player5"
+            },
+            {
+              "line": 7583,
+              "name": "Player6"
+            },
+            {
+              "line": 8148,
+              "name": "Player7"
+            },
+            {
+              "line": 8578,
+              "name": "Player8"
+            },
+            {
+              "line": 9122,
+              "name": "Player9"
+            },
+            {
+              "line": 9507,
+              "name": "Player10"
+            },
+            {
+              "line": 9988,
+              "name": "Player11"
+            },
+            {
+              "line": 10532,
+              "name": "Player12"
+            },
+            {
+              "line": 10926,
+              "name": "Player13"
+            },
+            {
+              "line": 11413,
+              "name": "Player14"
+            },
+            {
+              "line": 11930,
+              "name": "Player15"
+            },
+            {
+              "line": 12797,
+              "name": "Handle1"
+            }
+          ],
+          "comments": [],
+          "vertices": 3142,
+          "faces": 4366,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "test_username_3d\\builderman_156_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_Kd": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_d": "30DAY-f6845b98e98108f5a3004ac7d752d8d7"
+              }
+            },
+            {
+              "name": "Player2Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_Kd": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_d": "30DAY-1b4a66eccceed9efb72a07f91bd70af6"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.917647 0.721569 0.572549",
+                "Kd": "0.917647 0.721569 0.572549",
+                "Ks": "0.0791695 0.062253 0.0493964",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_Kd": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_d": "30DAY-e9e0401efc3aa30dcc5d98378a778021"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 13
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 25
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 26
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 27
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 39
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 40
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 41
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "real_3d_avatars",
+      "folder_name": "real_3d_avatars",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "3d_avatars\\builderman_156_3D",
+      "folder_name": "builderman_156_3D",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\ddotty_48232800\\ddotty_48232800_3D",
+      "folder_name": "ddotty_48232800_3D",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\yunda6481_179601113\\yunda6481_179601113_3D",
+      "folder_name": "yunda6481_179601113_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\yunda6481_179601113\\yunda6481_179601113_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Handle1"
+            },
+            {
+              "line": 37164,
+              "name": "Handle2"
+            },
+            {
+              "line": 43748,
+              "name": "Handle3"
+            },
+            {
+              "line": 82992,
+              "name": "Handle4"
+            },
+            {
+              "line": 85835,
+              "name": "Handle5"
+            },
+            {
+              "line": 101009,
+              "name": "Handle6"
+            },
+            {
+              "line": 140555,
+              "name": "Player1"
+            },
+            {
+              "line": 141964,
+              "name": "Player2"
+            },
+            {
+              "line": 142777,
+              "name": "Player3"
+            },
+            {
+              "line": 144984,
+              "name": "Player4"
+            },
+            {
+              "line": 145643,
+              "name": "Player5"
+            },
+            {
+              "line": 147833,
+              "name": "Player6"
+            },
+            {
+              "line": 148749,
+              "name": "Player7"
+            },
+            {
+              "line": 150626,
+              "name": "Player8"
+            },
+            {
+              "line": 152519,
+              "name": "Player9"
+            },
+            {
+              "line": 154414,
+              "name": "Player10"
+            },
+            {
+              "line": 156319,
+              "name": "Player11"
+            },
+            {
+              "line": 157235,
+              "name": "Player12"
+            },
+            {
+              "line": 159407,
+              "name": "Player13"
+            },
+            {
+              "line": 161596,
+              "name": "Player14"
+            },
+            {
+              "line": 162261,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 47548,
+          "faces": 21922,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\yunda6481_179601113\\yunda6481_179601113_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Player1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-31b26410081c1d58e0202904531c79c8",
+                "map_Kd": "30DAY-31b26410081c1d58e0202904531c79c8",
+                "map_d": "30DAY-31b26410081c1d58e0202904531c79c8"
+              }
+            },
+            {
+              "name": "Handle5Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-bccf048586ebf11ceb01048996a13d14",
+                "map_Kd": "30DAY-bccf048586ebf11ceb01048996a13d14",
+                "map_d": "30DAY-bccf048586ebf11ceb01048996a13d14"
+              }
+            },
+            {
+              "name": "Handle3Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-a0c832c135fd14091f7675d4339f4e6c",
+                "map_Kd": "30DAY-a0c832c135fd14091f7675d4339f4e6c",
+                "map_d": "30DAY-a0c832c135fd14091f7675d4339f4e6c"
+              }
+            },
+            {
+              "name": "Handle6Mtl",
+              "line": 43,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-acb26900a4945af03f21fc0c66808ee1",
+                "map_Kd": "30DAY-acb26900a4945af03f21fc0c66808ee1",
+                "map_d": "30DAY-acb26900a4945af03f21fc0c66808ee1"
+              }
+            },
+            {
+              "name": "Handle4Mtl",
+              "line": 57,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68",
+                "map_Kd": "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68",
+                "map_d": "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68"
+              }
+            },
+            {
+              "name": "Handle2Mtl",
+              "line": 71,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-7a0451a016ec13f4b793f0b186a335ce",
+                "map_Kd": "30DAY-7a0451a016ec13f4b793f0b186a335ce",
+                "map_d": "30DAY-7a0451a016ec13f4b793f0b186a335ce"
+              }
+            },
+            {
+              "name": "Handle1Mtl",
+              "line": 85,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f",
+                "map_Kd": "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f",
+                "map_d": "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-31b26410081c1d58e0202904531c79c8",
+              "line": 11
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-31b26410081c1d58e0202904531c79c8",
+              "line": 12
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-31b26410081c1d58e0202904531c79c8",
+              "line": 13
+            },
+            {
+              "material": "Handle5Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-bccf048586ebf11ceb01048996a13d14",
+              "line": 25
+            },
+            {
+              "material": "Handle5Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-bccf048586ebf11ceb01048996a13d14",
+              "line": 26
+            },
+            {
+              "material": "Handle5Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-bccf048586ebf11ceb01048996a13d14",
+              "line": 27
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-a0c832c135fd14091f7675d4339f4e6c",
+              "line": 39
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-a0c832c135fd14091f7675d4339f4e6c",
+              "line": 40
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-a0c832c135fd14091f7675d4339f4e6c",
+              "line": 41
+            },
+            {
+              "material": "Handle6Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-acb26900a4945af03f21fc0c66808ee1",
+              "line": 53
+            },
+            {
+              "material": "Handle6Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-acb26900a4945af03f21fc0c66808ee1",
+              "line": 54
+            },
+            {
+              "material": "Handle6Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-acb26900a4945af03f21fc0c66808ee1",
+              "line": 55
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68",
+              "line": 67
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68",
+              "line": 68
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68",
+              "line": 69
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-7a0451a016ec13f4b793f0b186a335ce",
+              "line": 81
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-7a0451a016ec13f4b793f0b186a335ce",
+              "line": 82
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-7a0451a016ec13f4b793f0b186a335ce",
+              "line": 83
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f",
+              "line": 95
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f",
+              "line": 96
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f",
+              "line": 97
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_real_3d\\Roblox_1_3D",
+      "folder_name": "Roblox_1_3D",
+      "obj_files": [
+        {
+          "file_path": "test_real_3d\\Roblox_1_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 1575,
+              "name": "Handle1"
+            },
+            {
+              "line": 2974,
+              "name": "Player2"
+            },
+            {
+              "line": 4012,
+              "name": "Player3"
+            },
+            {
+              "line": 6519,
+              "name": "Player4"
+            },
+            {
+              "line": 7729,
+              "name": "Player5"
+            },
+            {
+              "line": 8302,
+              "name": "Player6"
+            },
+            {
+              "line": 9340,
+              "name": "Player7"
+            },
+            {
+              "line": 10317,
+              "name": "Player8"
+            },
+            {
+              "line": 11527,
+              "name": "Player9"
+            },
+            {
+              "line": 12100,
+              "name": "Player10"
+            },
+            {
+              "line": 13065,
+              "name": "Player11"
+            },
+            {
+              "line": 18466,
+              "name": "Player12"
+            },
+            {
+              "line": 19038,
+              "name": "Player13"
+            },
+            {
+              "line": 19610,
+              "name": "Player14"
+            },
+            {
+              "line": 20282,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 5001,
+          "faces": 5822,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "test_real_3d\\Roblox_1_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-df9dc25f535816a731f15e9461461611",
+                "map_Kd": "30DAY-df9dc25f535816a731f15e9461461611",
+                "map_d": "30DAY-df9dc25f535816a731f15e9461461611"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-a23a080cb15d2300725487d9508e3c21",
+                "map_Kd": "30DAY-a23a080cb15d2300725487d9508e3c21",
+                "map_d": "30DAY-a23a080cb15d2300725487d9508e3c21"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-df9dc25f535816a731f15e9461461611",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-df9dc25f535816a731f15e9461461611",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-df9dc25f535816a731f15e9461461611",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-a23a080cb15d2300725487d9508e3c21",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-a23a080cb15d2300725487d9508e3c21",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-a23a080cb15d2300725487d9508e3c21",
+              "line": 27
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "real_3d_avatars\\builderman_156_3D",
+      "folder_name": "builderman_156_3D",
+      "obj_files": [
+        {
+          "file_path": "real_3d_avatars\\builderman_156_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 5402,
+              "name": "Player2"
+            },
+            {
+              "line": 5998,
+              "name": "Player3"
+            },
+            {
+              "line": 6572,
+              "name": "Player4"
+            },
+            {
+              "line": 7002,
+              "name": "Player5"
+            },
+            {
+              "line": 7583,
+              "name": "Player6"
+            },
+            {
+              "line": 8148,
+              "name": "Player7"
+            },
+            {
+              "line": 8578,
+              "name": "Player8"
+            },
+            {
+              "line": 9122,
+              "name": "Player9"
+            },
+            {
+              "line": 9507,
+              "name": "Player10"
+            },
+            {
+              "line": 9988,
+              "name": "Player11"
+            },
+            {
+              "line": 10532,
+              "name": "Player12"
+            },
+            {
+              "line": 10926,
+              "name": "Player13"
+            },
+            {
+              "line": 11413,
+              "name": "Player14"
+            },
+            {
+              "line": 11930,
+              "name": "Player15"
+            },
+            {
+              "line": 12797,
+              "name": "Handle1"
+            }
+          ],
+          "comments": [],
+          "vertices": 3142,
+          "faces": 4366,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "real_3d_avatars\\builderman_156_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_Kd": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_d": "30DAY-f6845b98e98108f5a3004ac7d752d8d7"
+              }
+            },
+            {
+              "name": "Player2Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_Kd": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_d": "30DAY-1b4a66eccceed9efb72a07f91bd70af6"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.917647 0.721569 0.572549",
+                "Kd": "0.917647 0.721569 0.572549",
+                "Ks": "0.0791695 0.062253 0.0493964",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_Kd": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_d": "30DAY-e9e0401efc3aa30dcc5d98378a778021"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 13
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 25
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 26
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 27
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 39
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 40
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 41
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "extended_avatar_info",
+      "folder_name": "extended_avatar_info",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "real_3d_avatars\\Roblox_1_3D",
+      "folder_name": "Roblox_1_3D",
+      "obj_files": [
+        {
+          "file_path": "real_3d_avatars\\Roblox_1_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 1575,
+              "name": "Handle1"
+            },
+            {
+              "line": 2974,
+              "name": "Player2"
+            },
+            {
+              "line": 4012,
+              "name": "Player3"
+            },
+            {
+              "line": 6519,
+              "name": "Player4"
+            },
+            {
+              "line": 7729,
+              "name": "Player5"
+            },
+            {
+              "line": 8302,
+              "name": "Player6"
+            },
+            {
+              "line": 9340,
+              "name": "Player7"
+            },
+            {
+              "line": 10317,
+              "name": "Player8"
+            },
+            {
+              "line": 11527,
+              "name": "Player9"
+            },
+            {
+              "line": 12100,
+              "name": "Player10"
+            },
+            {
+              "line": 13065,
+              "name": "Player11"
+            },
+            {
+              "line": 18466,
+              "name": "Player12"
+            },
+            {
+              "line": 19038,
+              "name": "Player13"
+            },
+            {
+              "line": 19610,
+              "name": "Player14"
+            },
+            {
+              "line": 20282,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 5001,
+          "faces": 5822,
+          "materials": []
+        }
+      ],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "example_3d",
+      "folder_name": "example_3d",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_username_3d",
+      "folder_name": "test_username_3d",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_extended_full\\builderman_156_3D",
+      "folder_name": "builderman_156_3D",
+      "obj_files": [
+        {
+          "file_path": "test_extended_full\\builderman_156_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 5402,
+              "name": "Player2"
+            },
+            {
+              "line": 5998,
+              "name": "Player3"
+            },
+            {
+              "line": 6572,
+              "name": "Player4"
+            },
+            {
+              "line": 7002,
+              "name": "Player5"
+            },
+            {
+              "line": 7583,
+              "name": "Player6"
+            },
+            {
+              "line": 8148,
+              "name": "Player7"
+            },
+            {
+              "line": 8578,
+              "name": "Player8"
+            },
+            {
+              "line": 9122,
+              "name": "Player9"
+            },
+            {
+              "line": 9507,
+              "name": "Player10"
+            },
+            {
+              "line": 9988,
+              "name": "Player11"
+            },
+            {
+              "line": 10532,
+              "name": "Player12"
+            },
+            {
+              "line": 10926,
+              "name": "Player13"
+            },
+            {
+              "line": 11413,
+              "name": "Player14"
+            },
+            {
+              "line": 11930,
+              "name": "Player15"
+            },
+            {
+              "line": 12797,
+              "name": "Handle1"
+            }
+          ],
+          "comments": [],
+          "vertices": 3142,
+          "faces": 4366,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "test_extended_full\\builderman_156_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_Kd": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_d": "30DAY-f6845b98e98108f5a3004ac7d752d8d7"
+              }
+            },
+            {
+              "name": "Player2Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_Kd": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_d": "30DAY-1b4a66eccceed9efb72a07f91bd70af6"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.917647 0.721569 0.572549",
+                "Kd": "0.917647 0.721569 0.572549",
+                "Ks": "0.0791695 0.062253 0.0493964",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_Kd": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_d": "30DAY-e9e0401efc3aa30dcc5d98378a778021"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 13
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 25
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 26
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 27
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 39
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 40
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 41
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\Heptagram_19171603\\Heptagram_19171603_3D",
+      "folder_name": "Heptagram_19171603_3D",
+      "obj_files": [],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\Heptagram_19171603\\Heptagram_19171603_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-ff3865b97c27ead6c02a7d356b146d51",
+                "map_Kd": "30DAY-ff3865b97c27ead6c02a7d356b146d51",
+                "map_d": "30DAY-ff3865b97c27ead6c02a7d356b146d51"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-308c524d15a2a7720c541638543787a7",
+                "map_Kd": "30DAY-308c524d15a2a7720c541638543787a7",
+                "map_d": "30DAY-308c524d15a2a7720c541638543787a7"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-ff3865b97c27ead6c02a7d356b146d51",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-ff3865b97c27ead6c02a7d356b146d51",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-ff3865b97c27ead6c02a7d356b146d51",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-308c524d15a2a7720c541638543787a7",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-308c524d15a2a7720c541638543787a7",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-308c524d15a2a7720c541638543787a7",
+              "line": 27
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\sarang12_91200541\\sarang12_91200541_3D",
+      "folder_name": "sarang12_91200541_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\sarang12_91200541\\sarang12_91200541_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 978,
+              "name": "Player2"
+            },
+            {
+              "line": 1551,
+              "name": "Player3"
+            },
+            {
+              "line": 2761,
+              "name": "Player4"
+            },
+            {
+              "line": 3726,
+              "name": "Player5"
+            },
+            {
+              "line": 4299,
+              "name": "Player6"
+            },
+            {
+              "line": 5509,
+              "name": "Player7"
+            },
+            {
+              "line": 6547,
+              "name": "Player8"
+            },
+            {
+              "line": 7219,
+              "name": "Player9"
+            },
+            {
+              "line": 7791,
+              "name": "Player10"
+            },
+            {
+              "line": 8829,
+              "name": "Player11"
+            },
+            {
+              "line": 9501,
+              "name": "Player12"
+            },
+            {
+              "line": 10073,
+              "name": "Player13"
+            },
+            {
+              "line": 11647,
+              "name": "Player14"
+            },
+            {
+              "line": 14154,
+              "name": "Player15"
+            },
+            {
+              "line": 14786,
+              "name": "Handle1"
+            }
+          ],
+          "comments": [],
+          "vertices": 4987,
+          "faces": 5292,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\sarang12_91200541\\sarang12_91200541_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-6c526de974ae2ed520943ae0000f8219",
+                "map_Kd": "30DAY-6c526de974ae2ed520943ae0000f8219",
+                "map_d": "30DAY-6c526de974ae2ed520943ae0000f8219"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-b42566df1c5025b3b49cfb90e4109530",
+                "map_Kd": "30DAY-b42566df1c5025b3b49cfb90e4109530",
+                "map_d": "30DAY-b42566df1c5025b3b49cfb90e4109530"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-6c526de974ae2ed520943ae0000f8219",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-6c526de974ae2ed520943ae0000f8219",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-6c526de974ae2ed520943ae0000f8219",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-b42566df1c5025b3b49cfb90e4109530",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-b42566df1c5025b3b49cfb90e4109530",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-b42566df1c5025b3b49cfb90e4109530",
+              "line": 27
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\chochou_174809561\\chochou_174809561_3D",
+      "folder_name": "chochou_174809561_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\chochou_174809561\\chochou_174809561_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Handle1"
+            },
+            {
+              "line": 10734,
+              "name": "Handle2"
+            },
+            {
+              "line": 13283,
+              "name": "Handle3"
+            },
+            {
+              "line": 27023,
+              "name": "Handle4"
+            },
+            {
+              "line": 33697,
+              "name": "Player1"
+            },
+            {
+              "line": 35195,
+              "name": "Player2"
+            },
+            {
+              "line": 35928,
+              "name": "Player3"
+            },
+            {
+              "line": 36653,
+              "name": "Player4"
+            },
+            {
+              "line": 38147,
+              "name": "Player5"
+            },
+            {
+              "line": 38880,
+              "name": "Player6"
+            },
+            {
+              "line": 40493,
+              "name": "Player7"
+            },
+            {
+              "line": 41231,
+              "name": "Player8"
+            },
+            {
+              "line": 42428,
+              "name": "Player9"
+            },
+            {
+              "line": 44032,
+              "name": "Player10"
+            },
+            {
+              "line": 44773,
+              "name": "Player11"
+            },
+            {
+              "line": 45969,
+              "name": "Player12"
+            },
+            {
+              "line": 47298,
+              "name": "Player13"
+            }
+          ],
+          "comments": [],
+          "vertices": 12378,
+          "faces": 12501,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\chochou_174809561\\chochou_174809561_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle4Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-213af3499d275e632af6971f07e26415",
+                "map_Kd": "30DAY-213af3499d275e632af6971f07e26415",
+                "map_d": "30DAY-213af3499d275e632af6971f07e26415"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba",
+                "map_Kd": "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba",
+                "map_d": "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba"
+              }
+            },
+            {
+              "name": "Handle2Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-8f064f8a8f4eb25503a0847388f4e70c",
+                "map_Kd": "30DAY-8f064f8a8f4eb25503a0847388f4e70c",
+                "map_d": "30DAY-8f064f8a8f4eb25503a0847388f4e70c"
+              }
+            },
+            {
+              "name": "Handle3Mtl",
+              "line": 43,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-3073b706c8ef18df35dd326b171d59f4",
+                "map_Kd": "30DAY-3073b706c8ef18df35dd326b171d59f4",
+                "map_d": "30DAY-3073b706c8ef18df35dd326b171d59f4"
+              }
+            },
+            {
+              "name": "Handle1Mtl",
+              "line": 57,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.639216 0.635294 0.647059",
+                "Kd": "0.639216 0.635294 0.647059",
+                "Ks": "0.055148 0.0548097 0.0558247",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-2106602027935597a06390c8e1eb17b4",
+                "map_Kd": "30DAY-2106602027935597a06390c8e1eb17b4",
+                "map_d": "30DAY-2106602027935597a06390c8e1eb17b4",
+                "map_Bump": "30DAY-53fcd7ebbf8c3bc7df9f400bd5397b8a",
+                "map_Ns": "30DAY-34ed133e250f305e704a5a4b328a50f6"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle4Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-213af3499d275e632af6971f07e26415",
+              "line": 11
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-213af3499d275e632af6971f07e26415",
+              "line": 12
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-213af3499d275e632af6971f07e26415",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba",
+              "line": 27
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-8f064f8a8f4eb25503a0847388f4e70c",
+              "line": 39
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-8f064f8a8f4eb25503a0847388f4e70c",
+              "line": 40
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-8f064f8a8f4eb25503a0847388f4e70c",
+              "line": 41
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-3073b706c8ef18df35dd326b171d59f4",
+              "line": 53
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-3073b706c8ef18df35dd326b171d59f4",
+              "line": 54
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-3073b706c8ef18df35dd326b171d59f4",
+              "line": 55
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-2106602027935597a06390c8e1eb17b4",
+              "line": 67
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-2106602027935597a06390c8e1eb17b4",
+              "line": 68
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-2106602027935597a06390c8e1eb17b4",
+              "line": 69
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Bump",
+              "texture_file": "30DAY-53fcd7ebbf8c3bc7df9f400bd5397b8a",
+              "line": 71
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ns",
+              "texture_file": "30DAY-34ed133e250f305e704a5a4b328a50f6",
+              "line": 73
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "3d_avatars\\Roblox_1_3D",
+      "folder_name": "Roblox_1_3D",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_improved_3d",
+      "folder_name": "test_improved_3d",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_improved_3d\\builderman_156_3D",
+      "folder_name": "builderman_156_3D",
+      "obj_files": [
+        {
+          "file_path": "test_improved_3d\\builderman_156_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Player1"
+            },
+            {
+              "line": 5402,
+              "name": "Player2"
+            },
+            {
+              "line": 5998,
+              "name": "Player3"
+            },
+            {
+              "line": 6572,
+              "name": "Player4"
+            },
+            {
+              "line": 7002,
+              "name": "Player5"
+            },
+            {
+              "line": 7583,
+              "name": "Player6"
+            },
+            {
+              "line": 8148,
+              "name": "Player7"
+            },
+            {
+              "line": 8578,
+              "name": "Player8"
+            },
+            {
+              "line": 9122,
+              "name": "Player9"
+            },
+            {
+              "line": 9507,
+              "name": "Player10"
+            },
+            {
+              "line": 9988,
+              "name": "Player11"
+            },
+            {
+              "line": 10532,
+              "name": "Player12"
+            },
+            {
+              "line": 10926,
+              "name": "Player13"
+            },
+            {
+              "line": 11413,
+              "name": "Player14"
+            },
+            {
+              "line": 11930,
+              "name": "Player15"
+            },
+            {
+              "line": 12797,
+              "name": "Handle1"
+            }
+          ],
+          "comments": [],
+          "vertices": 3142,
+          "faces": 4366,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "test_improved_3d\\builderman_156_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_Kd": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+                "map_d": "30DAY-f6845b98e98108f5a3004ac7d752d8d7"
+              }
+            },
+            {
+              "name": "Player2Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_Kd": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+                "map_d": "30DAY-1b4a66eccceed9efb72a07f91bd70af6"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "0.917647 0.721569 0.572549",
+                "Kd": "0.917647 0.721569 0.572549",
+                "Ks": "0.0791695 0.062253 0.0493964",
+                "d": "1",
+                "Ns": "255",
+                "map_Ka": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_Kd": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+                "map_d": "30DAY-e9e0401efc3aa30dcc5d98378a778021"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 11
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 12
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-f6845b98e98108f5a3004ac7d752d8d7",
+              "line": 13
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 25
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 26
+            },
+            {
+              "material": "Player2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-1b4a66eccceed9efb72a07f91bd70af6",
+              "line": 27
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 39
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 40
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-e9e0401efc3aa30dcc5d98378a778021",
+              "line": 41
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "test_3d\\Roblox_1_3D",
+      "folder_name": "Roblox_1_3D",
+      "obj_files": [],
+      "mtl_files": [],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\GGAMBRING_187102729\\GGAMBRING_187102729_3D",
+      "folder_name": "GGAMBRING_187102729_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\GGAMBRING_187102729\\GGAMBRING_187102729_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Handle1"
+            },
+            {
+              "line": 10581,
+              "name": "Handle2"
+            },
+            {
+              "line": 12780,
+              "name": "Handle3"
+            },
+            {
+              "line": 17699,
+              "name": "Handle4"
+            },
+            {
+              "line": 20819,
+              "name": "Handle5"
+            },
+            {
+              "line": 27493,
+              "name": "Player1"
+            },
+            {
+              "line": 28470,
+              "name": "Player2"
+            },
+            {
+              "line": 29043,
+              "name": "Player3"
+            },
+            {
+              "line": 30253,
+              "name": "Player4"
+            },
+            {
+              "line": 31218,
+              "name": "Player5"
+            },
+            {
+              "line": 31791,
+              "name": "Player6"
+            },
+            {
+              "line": 33001,
+              "name": "Player7"
+            },
+            {
+              "line": 34039,
+              "name": "Player8"
+            },
+            {
+              "line": 34711,
+              "name": "Player9"
+            },
+            {
+              "line": 35283,
+              "name": "Player10"
+            },
+            {
+              "line": 36321,
+              "name": "Player11"
+            },
+            {
+              "line": 36993,
+              "name": "Player12"
+            },
+            {
+              "line": 37565,
+              "name": "Player13"
+            },
+            {
+              "line": 39139,
+              "name": "Player14"
+            },
+            {
+              "line": 41646,
+              "name": "Handle6"
+            },
+            {
+              "line": 42810,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 11455,
+          "faces": 10750,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\GGAMBRING_187102729\\GGAMBRING_187102729_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Player1Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-b33c81a4f8d739e1422d877bc3a025c2",
+                "map_Kd": "30DAY-b33c81a4f8d739e1422d877bc3a025c2",
+                "map_d": "30DAY-b33c81a4f8d739e1422d877bc3a025c2"
+              }
+            },
+            {
+              "name": "Handle5Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-ce8459db58a97561e12fa4557f2af310",
+                "map_Kd": "30DAY-ce8459db58a97561e12fa4557f2af310",
+                "map_d": "30DAY-ce8459db58a97561e12fa4557f2af310"
+              }
+            },
+            {
+              "name": "Handle6Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-229bf82b651b63ef4d96b80486ad83b5",
+                "map_Kd": "30DAY-229bf82b651b63ef4d96b80486ad83b5",
+                "map_d": "30DAY-229bf82b651b63ef4d96b80486ad83b5"
+              }
+            },
+            {
+              "name": "Handle4Mtl",
+              "line": 43,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-4f35c83e72d60511105333f2e7879e0e",
+                "map_Kd": "30DAY-4f35c83e72d60511105333f2e7879e0e",
+                "map_d": "30DAY-4f35c83e72d60511105333f2e7879e0e"
+              }
+            },
+            {
+              "name": "Handle3Mtl",
+              "line": 57,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-df6d3893f75465c69e682e46cc2ae8c0",
+                "map_Kd": "30DAY-df6d3893f75465c69e682e46cc2ae8c0",
+                "map_d": "30DAY-df6d3893f75465c69e682e46cc2ae8c0"
+              }
+            },
+            {
+              "name": "Handle2Mtl",
+              "line": 71,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-f9c741361aab7fe426f1a13f7d7dcebf",
+                "map_Kd": "30DAY-f9c741361aab7fe426f1a13f7d7dcebf",
+                "map_d": "30DAY-f9c741361aab7fe426f1a13f7d7dcebf"
+              }
+            },
+            {
+              "name": "Handle1Mtl",
+              "line": 85,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff",
+                "map_Kd": "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff",
+                "map_d": "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-b33c81a4f8d739e1422d877bc3a025c2",
+              "line": 11
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-b33c81a4f8d739e1422d877bc3a025c2",
+              "line": 12
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-b33c81a4f8d739e1422d877bc3a025c2",
+              "line": 13
+            },
+            {
+              "material": "Handle5Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-ce8459db58a97561e12fa4557f2af310",
+              "line": 25
+            },
+            {
+              "material": "Handle5Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-ce8459db58a97561e12fa4557f2af310",
+              "line": 26
+            },
+            {
+              "material": "Handle5Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-ce8459db58a97561e12fa4557f2af310",
+              "line": 27
+            },
+            {
+              "material": "Handle6Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-229bf82b651b63ef4d96b80486ad83b5",
+              "line": 39
+            },
+            {
+              "material": "Handle6Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-229bf82b651b63ef4d96b80486ad83b5",
+              "line": 40
+            },
+            {
+              "material": "Handle6Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-229bf82b651b63ef4d96b80486ad83b5",
+              "line": 41
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-4f35c83e72d60511105333f2e7879e0e",
+              "line": 53
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-4f35c83e72d60511105333f2e7879e0e",
+              "line": 54
+            },
+            {
+              "material": "Handle4Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-4f35c83e72d60511105333f2e7879e0e",
+              "line": 55
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-df6d3893f75465c69e682e46cc2ae8c0",
+              "line": 67
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-df6d3893f75465c69e682e46cc2ae8c0",
+              "line": 68
+            },
+            {
+              "material": "Handle3Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-df6d3893f75465c69e682e46cc2ae8c0",
+              "line": 69
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-f9c741361aab7fe426f1a13f7d7dcebf",
+              "line": 81
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-f9c741361aab7fe426f1a13f7d7dcebf",
+              "line": 82
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-f9c741361aab7fe426f1a13f7d7dcebf",
+              "line": 83
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff",
+              "line": 95
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff",
+              "line": 96
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-4c82e2fa33e6b054d9fc77d9313d7aff",
+              "line": 97
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    },
+    {
+      "folder_path": "downloads\\whitehyeonX_1647988772\\whitehyeonX_1647988772_3D",
+      "folder_name": "whitehyeonX_1647988772_3D",
+      "obj_files": [
+        {
+          "file_path": "downloads\\whitehyeonX_1647988772\\whitehyeonX_1647988772_3D\\avatar.obj",
+          "parsed_at": "2025-09-17 15:47:41",
+          "attachments": [],
+          "bones": [],
+          "objects": [],
+          "groups": [
+            {
+              "line": 1,
+              "name": "Handle1"
+            },
+            {
+              "line": 3201,
+              "name": "Handle2"
+            },
+            {
+              "line": 12649,
+              "name": "Player1"
+            },
+            {
+              "line": 13626,
+              "name": "Player2"
+            },
+            {
+              "line": 14199,
+              "name": "Player3"
+            },
+            {
+              "line": 15409,
+              "name": "Player4"
+            },
+            {
+              "line": 16374,
+              "name": "Player5"
+            },
+            {
+              "line": 16947,
+              "name": "Player6"
+            },
+            {
+              "line": 18157,
+              "name": "Player7"
+            },
+            {
+              "line": 19195,
+              "name": "Player8"
+            },
+            {
+              "line": 19867,
+              "name": "Player9"
+            },
+            {
+              "line": 20439,
+              "name": "Player10"
+            },
+            {
+              "line": 21477,
+              "name": "Player11"
+            },
+            {
+              "line": 22149,
+              "name": "Player12"
+            },
+            {
+              "line": 22721,
+              "name": "Player13"
+            },
+            {
+              "line": 24295,
+              "name": "Player14"
+            },
+            {
+              "line": 26802,
+              "name": "Player15"
+            }
+          ],
+          "comments": [],
+          "vertices": 7131,
+          "faces": 7746,
+          "materials": []
+        }
+      ],
+      "mtl_files": [
+        {
+          "file_path": "downloads\\whitehyeonX_1647988772\\whitehyeonX_1647988772_3D\\avatar.mtl",
+          "parsed_at": "2025-09-17 15:47:41",
+          "materials": [
+            {
+              "name": "Handle2Mtl",
+              "line": 1,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-d51b868f2a09d1df6a507034c1926d74",
+                "map_Kd": "30DAY-d51b868f2a09d1df6a507034c1926d74",
+                "map_d": "30DAY-d51b868f2a09d1df6a507034c1926d74"
+              }
+            },
+            {
+              "name": "Player1Mtl",
+              "line": 15,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-8e20728a7a298bfbc14441ce95a46d26",
+                "map_Kd": "30DAY-8e20728a7a298bfbc14441ce95a46d26",
+                "map_d": "30DAY-8e20728a7a298bfbc14441ce95a46d26"
+              }
+            },
+            {
+              "name": "Handle1Mtl",
+              "line": 29,
+              "properties": {
+                "Material": "Color",
+                "Ka": "1 1 1",
+                "Kd": "1 1 1",
+                "Ks": "0.0627451 0.0627451 0.0627451",
+                "d": "1",
+                "Ns": "0",
+                "map_Ka": "30DAY-9ae01dc82629b0a03f15bd0105ee74b0",
+                "map_Kd": "30DAY-9ae01dc82629b0a03f15bd0105ee74b0",
+                "map_d": "30DAY-9ae01dc82629b0a03f15bd0105ee74b0"
+              }
+            }
+          ],
+          "textures": [
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-d51b868f2a09d1df6a507034c1926d74",
+              "line": 11
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-d51b868f2a09d1df6a507034c1926d74",
+              "line": 12
+            },
+            {
+              "material": "Handle2Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-d51b868f2a09d1df6a507034c1926d74",
+              "line": 13
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-8e20728a7a298bfbc14441ce95a46d26",
+              "line": 25
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-8e20728a7a298bfbc14441ce95a46d26",
+              "line": 26
+            },
+            {
+              "material": "Player1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-8e20728a7a298bfbc14441ce95a46d26",
+              "line": 27
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Ka",
+              "texture_file": "30DAY-9ae01dc82629b0a03f15bd0105ee74b0",
+              "line": 39
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_Kd",
+              "texture_file": "30DAY-9ae01dc82629b0a03f15bd0105ee74b0",
+              "line": 40
+            },
+            {
+              "material": "Handle1Mtl",
+              "property": "map_d",
+              "texture_file": "30DAY-9ae01dc82629b0a03f15bd0105ee74b0",
+              "line": 41
+            }
+          ]
+        }
+      ],
+      "texture_files": []
+    }
+  ]
+}

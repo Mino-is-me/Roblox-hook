@@ -1,0 +1,255 @@
+{
+  "user_id": 1,
+  "username": "Roblox",
+  "collected_at": "2025-09-17 15:46:10",
+  "attachment_info": {
+    "user_id": 1,
+    "collected_at": "2025-09-17 15:46:04",
+    "attachment_data": {
+      "avatar_details": {
+        "scales": {
+          "height": 1.0,
+          "width": 1.0,
+          "head": 1.0,
+          "depth": 1.0,
+          "proportion": 0.0,
+          "bodyType": 0.0
+        },
+        "playerAvatarType": "R15",
+        "bodyColors": {
+          "headColorId": 194,
+          "torsoColorId": 23,
+          "rightArmColorId": 194,
+          "leftArmColorId": 194,
+          "rightLegColorId": 102,
+          "leftLegColorId": 102
+        },
+        "assets": [
+          {
+            "id": 301811432,
+            "name": "Oakley Pants",
+            "assetType": {
+              "id": 12,
+              "name": "Pants"
+            },
+            "currentVersionId": 10151325111
+          },
+          {
+            "id": 607702162,
+            "name": "Roblox Baseball Cap",
+            "assetType": {
+              "id": 8,
+              "name": "Hat"
+            },
+            "currentVersionId": 1171146069
+          },
+          {
+            "id": 607785314,
+            "name": "ROBLOX Jacket",
+            "assetType": {
+              "id": 11,
+              "name": "Shirt"
+            },
+            "currentVersionId": 955993454
+          },
+          {
+            "id": 2510230574,
+            "name": "Rthro Climb",
+            "assetType": {
+              "id": 48,
+              "name": "ClimbAnimation"
+            },
+            "currentVersionId": 13806699923
+          },
+          {
+            "id": 2510233257,
+            "name": "Rthro Fall",
+            "assetType": {
+              "id": 50,
+              "name": "FallAnimation"
+            },
+            "currentVersionId": 13806699941
+          },
+          {
+            "id": 2510235063,
+            "name": "Rthro Idle",
+            "assetType": {
+              "id": 51,
+              "name": "IdleAnimation"
+            },
+            "currentVersionId": 17686818829
+          },
+          {
+            "id": 2510236649,
+            "name": "Rthro Jump",
+            "assetType": {
+              "id": 52,
+              "name": "JumpAnimation"
+            },
+            "currentVersionId": 13806699943
+          },
+          {
+            "id": 2510238627,
+            "name": "Rthro Run",
+            "assetType": {
+              "id": 53,
+              "name": "RunAnimation"
+            },
+            "currentVersionId": 13806699940
+          },
+          {
+            "id": 2510240941,
+            "name": "Rthro Swim",
+            "assetType": {
+              "id": 54,
+              "name": "SwimAnimation"
+            },
+            "currentVersionId": 13806699946
+          },
+          {
+            "id": 2510242378,
+            "name": "Rthro Walk",
+            "assetType": {
+              "id": 55,
+              "name": "WalkAnimation"
+            },
+            "currentVersionId": 13806699951
+          },
+          {
+            "id": 10638267973,
+            "name": "Stevie Standard - Head",
+            "assetType": {
+              "id": 79,
+              "name": "DynamicHead"
+            },
+            "currentVersionId": 25035095467
+          },
+          {
+            "id": 10647852134,
+            "name": "DefaultFallBackMood",
+            "assetType": {
+              "id": 78,
+              "name": "MoodAnimation"
+            },
+            "currentVersionId": 18941427668
+          },
+          {
+            "id": 12995014400,
+            "name": "Man - Left Arm",
+            "assetType": {
+              "id": 29,
+              "name": "LeftArm"
+            },
+            "currentVersionId": 16754708924
+          },
+          {
+            "id": 12995015868,
+            "name": "Man - Left Leg",
+            "assetType": {
+              "id": 30,
+              "name": "LeftLeg"
+            },
+            "currentVersionId": 16754710931
+          },
+          {
+            "id": 12995017412,
+            "name": "Man - Right Arm",
+            "assetType": {
+              "id": 28,
+              "name": "RightArm"
+            },
+            "currentVersionId": 16754713361
+          },
+          {
+            "id": 12995018829,
+            "name": "Man - Right Leg",
+            "assetType": {
+              "id": 31,
+              "name": "RightLeg"
+            },
+            "currentVersionId": 16754715470
+          },
+          {
+            "id": 12995020128,
+            "name": "Man - Torso",
+            "assetType": {
+              "id": 27,
+              "name": "Torso"
+            },
+            "currentVersionId": 16754717279
+          }
+        ],
+        "defaultShirtApplied": false,
+        "defaultPantsApplied": false,
+        "emotes": []
+      },
+      "currently_wearing": {
+        "assetIds": [
+          301811432,
+          607702162,
+          607785314,
+          2510230574,
+          2510233257,
+          2510235063,
+          2510236649,
+          2510238627,
+          2510240941,
+          2510242378,
+          10638267973,
+          10647852134,
+          12995014400,
+          12995015868,
+          12995017412,
+          12995018829,
+          12995020128
+        ]
+      },
+      "asset_details": [
+        {
+          "asset_id": 301811432,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 607702162,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 607785314,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510230574,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510233257,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510235063,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510236649,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510238627,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510240941,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 2510242378,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        }
+      ]
+    }
+  },
+  "attachment_3d": {
+    "user_id": 1,
+    "3d_attachments": {}
+  }
+}

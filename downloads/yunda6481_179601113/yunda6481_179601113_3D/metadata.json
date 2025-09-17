@@ -1,0 +1,56 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2016-11-10T10:41:43.993Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 179601113,
+    "name": "yunda6481",
+    "displayName": "SSS_e"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": 0.683962,
+        "y": 106.183,
+        "z": -12.3132
+      },
+      "direction": {
+        "x": 0.0523359,
+        "y": 0.258464,
+        "z": -0.964602
+      },
+      "fov": 28.8047
+    },
+    "aabb": {
+      "min": {
+        "x": -3.00178,
+        "y": 100.01,
+        "z": -1.90096
+      },
+      "max": {
+        "x": 3.01978,
+        "y": 105.689,
+        "z": 2.15492
+      }
+    },
+    "mtl": "30DAY-d7339facff952bf3a4e49e260ead4747",
+    "obj": "30DAY-80cb48b9b09e101e4659c120d1ef5a83",
+    "textures": [
+      "30DAY-31b26410081c1d58e0202904531c79c8",
+      "30DAY-bccf048586ebf11ceb01048996a13d14",
+      "30DAY-acb26900a4945af03f21fc0c66808ee1",
+      "30DAY-9dd72b539e6a7a183f5cd5618c9a7a68",
+      "30DAY-a0c832c135fd14091f7675d4339f4e6c",
+      "30DAY-7a0451a016ec13f4b793f0b186a335ce",
+      "30DAY-bb782bc2bffe36fadf9b75a3615c7a0f"
+    ]
+  },
+  "download_timestamp": "2025-09-17 11:59:21",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

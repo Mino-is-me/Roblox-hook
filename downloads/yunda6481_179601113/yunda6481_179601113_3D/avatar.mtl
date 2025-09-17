@@ -1,0 +1,98 @@
+newmtl Player1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-31b26410081c1d58e0202904531c79c8
+map_Kd 30DAY-31b26410081c1d58e0202904531c79c8
+map_d 30DAY-31b26410081c1d58e0202904531c79c8
+
+newmtl Handle5Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-bccf048586ebf11ceb01048996a13d14
+map_Kd 30DAY-bccf048586ebf11ceb01048996a13d14
+map_d 30DAY-bccf048586ebf11ceb01048996a13d14
+
+newmtl Handle3Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-a0c832c135fd14091f7675d4339f4e6c
+map_Kd 30DAY-a0c832c135fd14091f7675d4339f4e6c
+map_d 30DAY-a0c832c135fd14091f7675d4339f4e6c
+
+newmtl Handle6Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-acb26900a4945af03f21fc0c66808ee1
+map_Kd 30DAY-acb26900a4945af03f21fc0c66808ee1
+map_d 30DAY-acb26900a4945af03f21fc0c66808ee1
+
+newmtl Handle4Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-9dd72b539e6a7a183f5cd5618c9a7a68
+map_Kd 30DAY-9dd72b539e6a7a183f5cd5618c9a7a68
+map_d 30DAY-9dd72b539e6a7a183f5cd5618c9a7a68
+
+newmtl Handle2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-7a0451a016ec13f4b793f0b186a335ce
+map_Kd 30DAY-7a0451a016ec13f4b793f0b186a335ce
+map_d 30DAY-7a0451a016ec13f4b793f0b186a335ce
+
+newmtl Handle1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka 30DAY-bb782bc2bffe36fadf9b75a3615c7a0f
+map_Kd 30DAY-bb782bc2bffe36fadf9b75a3615c7a0f
+map_d 30DAY-bb782bc2bffe36fadf9b75a3615c7a0f
+

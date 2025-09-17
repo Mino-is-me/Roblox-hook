@@ -1,0 +1,53 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2013-09-07T21:37:58.443Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 48232800,
+    "name": "ddotty",
+    "displayName": "ddotty"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.45812,
+        "y": 105.191,
+        "z": -5.06441
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -2.0,
+        "y": 100.01,
+        "z": -0.984416
+      },
+      "max": {
+        "x": 2.0,
+        "y": 105.482,
+        "z": 0.654225
+      }
+    },
+    "mtl": "30DAY-9d2e79d9c24ef04716bef752733da137",
+    "obj": "30DAY-bf3f16b938a3a619775ccbef04d56609",
+    "textures": [
+      "30DAY-1c86cfb42b909ba35caffe073af188c6",
+      "30DAY-9e1b812189cbb30be2811732785f4e05",
+      "30DAY-b216b4d520afa032be010caf2ef9c3f4",
+      "30DAY-9b60cf8f274aff0b8cc99437d1f65941"
+    ]
+  },
+  "download_timestamp": "2025-09-17 11:58:52",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2016-06-28T07:51:22.43Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 138551484,
+    "name": "SUHYEN",
+    "displayName": "SUHYEN"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.64742,
+        "y": 105.587,
+        "z": -5.35692
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.75218,
+        "y": 99.9482,
+        "z": -0.812434
+      },
+      "max": {
+        "x": 1.83289,
+        "y": 105.883,
+        "z": 1.22644
+      }
+    },
+    "mtl": "30DAY-7d6cfc2333ec3c5a509a8b65cff20885",
+    "obj": "30DAY-4877b40eb38a5dd4e0c87d81dc2dd26f",
+    "textures": [
+      "30DAY-7e3d26b0c766cf13a13de59f77019eaa",
+      "30DAY-028034c7bd4799676041da41167d64c5"
+    ]
+  },
+  "download_timestamp": "2025-09-17 12:00:54",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

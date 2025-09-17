@@ -1,0 +1,139 @@
+{
+  "user_id": 48232800,
+  "collected_at": "2025-09-17 15:32:15",
+  "api_responses": {
+    "user_info": {
+      "description": "",
+      "created": "2013-09-07T21:37:58.443Z",
+      "isBanned": false,
+      "externalAppDisplayName": null,
+      "hasVerifiedBadge": false,
+      "id": 48232800,
+      "name": "ddotty",
+      "displayName": "ddotty"
+    },
+    "avatar_config": {
+      "scales": {
+        "height": 1.0,
+        "width": 1.0,
+        "head": 1.0,
+        "depth": 1.0,
+        "proportion": 0.0,
+        "bodyType": 0.0
+      },
+      "playerAvatarType": "R15",
+      "bodyColors": {
+        "headColorId": 194,
+        "torsoColorId": 37,
+        "rightArmColorId": 194,
+        "leftArmColorId": 194,
+        "rightLegColorId": 102,
+        "leftLegColorId": 102
+      },
+      "assets": [
+        {
+          "id": 48474313,
+          "name": "Red Roblox Cap",
+          "assetType": {
+            "id": 8,
+            "name": "Hat"
+          },
+          "currentVersionId": 883362718
+        },
+        {
+          "id": 10638267973,
+          "name": "Stevie Standard - Head",
+          "assetType": {
+            "id": 79,
+            "name": "DynamicHead"
+          },
+          "currentVersionId": 25035095467
+        },
+        {
+          "id": 10647852134,
+          "name": "DefaultFallBackMood",
+          "assetType": {
+            "id": 78,
+            "name": "MoodAnimation"
+          },
+          "currentVersionId": 18941427668
+        }
+      ],
+      "defaultShirtApplied": false,
+      "defaultPantsApplied": false,
+      "emotes": []
+    },
+    "currently_wearing": {
+      "assetIds": [
+        48474313,
+        10638267973,
+        10647852134
+      ]
+    },
+    "body_colors": {
+      "headColorId": 194,
+      "torsoColorId": 37,
+      "rightArmColorId": 194,
+      "leftArmColorId": 194,
+      "rightLegColorId": 102,
+      "leftLegColorId": 102
+    },
+    "thumbnails": {
+      "headshot": {
+        "data": [
+          {
+            "targetId": 48232800,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-5886C66D1CC41E9E766956C9C8A9FB6D-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      },
+      "bust": {
+        "data": [
+          {
+            "targetId": 48232800,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-5886C66D1CC41E9E766956C9C8A9FB6D-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      },
+      "full_body": {
+        "data": [
+          {
+            "targetId": 48232800,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-5886C66D1CC41E9E766956C9C8A9FB6D-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      }
+    },
+    "games": {
+      "previousPageCursor": null,
+      "nextPageCursor": null,
+      "data": [
+        {
+          "id": 49184001,
+          "name": "ddotty's Place",
+          "description": null,
+          "creator": {
+            "id": 48232800,
+            "type": "User"
+          },
+          "rootPlace": {
+            "id": 129063514,
+            "type": "Place"
+          },
+          "created": "2013-11-01T15:04:27.897Z",
+          "updated": "2019-04-03T19:31:16.03Z",
+          "placeVisits": 7
+        }
+      ]
+    },
+    "groups": {
+      "data": []
+    }
+  }
+}

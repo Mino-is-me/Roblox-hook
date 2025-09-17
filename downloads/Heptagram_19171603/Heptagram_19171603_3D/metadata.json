@@ -1,0 +1,51 @@
+{
+  "user_info": {
+    "description": "A heptagram is a 7 pointed star.",
+    "created": "2011-08-13T12:13:48.247Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 19171603,
+    "name": "Heptagram",
+    "displayName": "Heptagram"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.45812,
+        "y": 105.191,
+        "z": -5.06441
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -2.0,
+        "y": 100.01,
+        "z": -0.984416
+      },
+      "max": {
+        "x": 2.0,
+        "y": 105.482,
+        "z": 0.654225
+      }
+    },
+    "mtl": "30DAY-72308833f92fc65cc57db2e72fd3c82d",
+    "obj": "30DAY-71b08b7ee7184d682b61b66623db67d4",
+    "textures": [
+      "30DAY-ff3865b97c27ead6c02a7d356b146d51",
+      "30DAY-308c524d15a2a7720c541638543787a7"
+    ]
+  },
+  "download_timestamp": "2025-09-17 12:00:45",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

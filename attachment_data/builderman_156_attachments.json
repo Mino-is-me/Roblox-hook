@@ -1,0 +1,251 @@
+{
+  "user_id": 156,
+  "username": "builderman",
+  "collected_at": "2025-09-17 15:46:02",
+  "attachment_info": {
+    "user_id": 156,
+    "collected_at": "2025-09-17 15:45:53",
+    "attachment_data": {
+      "avatar_details": {
+        "scales": {
+          "height": 1.0,
+          "width": 1.0,
+          "head": 1.0,
+          "depth": 1.0,
+          "proportion": 0.0,
+          "bodyType": 0.0
+        },
+        "playerAvatarType": "R15",
+        "bodyColors": {
+          "headColorId": 125,
+          "torsoColorId": 125,
+          "rightArmColorId": 125,
+          "leftArmColorId": 125,
+          "rightLegColorId": 125,
+          "leftLegColorId": 125
+        },
+        "assets": [
+          {
+            "id": 11844853,
+            "name": "Turbo Builders Club Hard Hat",
+            "assetType": {
+              "id": 8,
+              "name": "Hat"
+            },
+            "currentVersionId": 883360292
+          },
+          {
+            "id": 27112025,
+            "name": "Roblox 2.0 Torso",
+            "assetType": {
+              "id": 27,
+              "name": "Torso"
+            },
+            "currentVersionId": 11201616558
+          },
+          {
+            "id": 27112039,
+            "name": "Roblox 2.0 Right Arm",
+            "assetType": {
+              "id": 28,
+              "name": "RightArm"
+            },
+            "currentVersionId": 11201616570
+          },
+          {
+            "id": 27112052,
+            "name": "Roblox 2.0 Left Arm",
+            "assetType": {
+              "id": 29,
+              "name": "LeftArm"
+            },
+            "currentVersionId": 11201616588
+          },
+          {
+            "id": 27112056,
+            "name": "Roblox 2.0 Left Leg",
+            "assetType": {
+              "id": 30,
+              "name": "LeftLeg"
+            },
+            "currentVersionId": 11201616595
+          },
+          {
+            "id": 27112068,
+            "name": "Roblox 2.0 Right Leg",
+            "assetType": {
+              "id": 31,
+              "name": "RightLeg"
+            },
+            "currentVersionId": 11201616609
+          },
+          {
+            "id": 129458426,
+            "name": "Jeans",
+            "assetType": {
+              "id": 12,
+              "name": "Pants"
+            },
+            "currentVersionId": 304919540
+          },
+          {
+            "id": 3670737444,
+            "name": "Roblox Shirt - Simple Pattern",
+            "assetType": {
+              "id": 11,
+              "name": "Shirt"
+            },
+            "currentVersionId": 4754198745
+          },
+          {
+            "id": 10638267973,
+            "name": "Stevie Standard - Head",
+            "assetType": {
+              "id": 79,
+              "name": "DynamicHead"
+            },
+            "currentVersionId": 25035095467
+          },
+          {
+            "id": 10647852134,
+            "name": "DefaultFallBackMood",
+            "assetType": {
+              "id": 78,
+              "name": "MoodAnimation"
+            },
+            "currentVersionId": 18941427668
+          }
+        ],
+        "defaultShirtApplied": false,
+        "defaultPantsApplied": false,
+        "emotes": []
+      },
+      "currently_wearing": {
+        "assetIds": [
+          11844853,
+          27112025,
+          27112039,
+          27112052,
+          27112056,
+          27112068,
+          129458426,
+          3670737444,
+          10638267973,
+          10647852134
+        ]
+      },
+      "asset_details": [
+        {
+          "asset_id": 11844853,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 27112025,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 27112039,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 27112052,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 27112056,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 27112068,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 129458426,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 3670737444,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 10638267973,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        },
+        {
+          "asset_id": 10647852134,
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        }
+      ],
+      "outfits": {
+        "filteredCount": 0,
+        "data": [
+          {
+            "id": 17762785106,
+            "name": "Winky",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 11685920016,
+            "name": "Check It",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 11155772506,
+            "name": "Stevie Standard",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929576,
+            "name": "Robloxian 2.0",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929573,
+            "name": "Action Figure",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929569,
+            "name": "CoolKid McAwesome",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929560,
+            "name": "Bro",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929559,
+            "name": "Skeleton  ",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929465,
+            "name": "Chicago News Man",
+            "isEditable": false,
+            "outfitType": null
+          },
+          {
+            "id": 131929462,
+            "name": "The Londoner",
+            "isEditable": false,
+            "outfitType": null
+          }
+        ],
+        "total": 500
+      }
+    }
+  },
+  "attachment_3d": {
+    "user_id": 156,
+    "3d_attachments": {}
+  }
+}

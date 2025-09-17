@@ -1,0 +1,298 @@
+{
+  "user_id": 1,
+  "collected_at": "2025-09-17 15:32:21",
+  "api_responses": {
+    "user_info": {
+      "description": "Welcome to the Roblox profile! This is where you can check out the newest items in the catalog, and get a jumpstart on exploring and building on our Imagination Platform. If you want news on updates to the Roblox platform, or great new experiences to play with friends, check out blog.roblox.com. Please note, this is an automated account. If you need to reach Roblox for any customer service needs find help at www.roblox.com/help",
+      "created": "2006-02-27T21:06:40.3Z",
+      "isBanned": false,
+      "externalAppDisplayName": null,
+      "hasVerifiedBadge": true,
+      "id": 1,
+      "name": "Roblox",
+      "displayName": "Roblox"
+    },
+    "avatar_config": {
+      "scales": {
+        "height": 1.0,
+        "width": 1.0,
+        "head": 1.0,
+        "depth": 1.0,
+        "proportion": 0.0,
+        "bodyType": 0.0
+      },
+      "playerAvatarType": "R15",
+      "bodyColors": {
+        "headColorId": 194,
+        "torsoColorId": 23,
+        "rightArmColorId": 194,
+        "leftArmColorId": 194,
+        "rightLegColorId": 102,
+        "leftLegColorId": 102
+      },
+      "assets": [
+        {
+          "id": 301811432,
+          "name": "Oakley Pants",
+          "assetType": {
+            "id": 12,
+            "name": "Pants"
+          },
+          "currentVersionId": 10151325111
+        },
+        {
+          "id": 607702162,
+          "name": "Roblox Baseball Cap",
+          "assetType": {
+            "id": 8,
+            "name": "Hat"
+          },
+          "currentVersionId": 1171146069
+        },
+        {
+          "id": 607785314,
+          "name": "ROBLOX Jacket",
+          "assetType": {
+            "id": 11,
+            "name": "Shirt"
+          },
+          "currentVersionId": 955993454
+        },
+        {
+          "id": 2510230574,
+          "name": "Rthro Climb",
+          "assetType": {
+            "id": 48,
+            "name": "ClimbAnimation"
+          },
+          "currentVersionId": 13806699923
+        },
+        {
+          "id": 2510233257,
+          "name": "Rthro Fall",
+          "assetType": {
+            "id": 50,
+            "name": "FallAnimation"
+          },
+          "currentVersionId": 13806699941
+        },
+        {
+          "id": 2510235063,
+          "name": "Rthro Idle",
+          "assetType": {
+            "id": 51,
+            "name": "IdleAnimation"
+          },
+          "currentVersionId": 17686818829
+        },
+        {
+          "id": 2510236649,
+          "name": "Rthro Jump",
+          "assetType": {
+            "id": 52,
+            "name": "JumpAnimation"
+          },
+          "currentVersionId": 13806699943
+        },
+        {
+          "id": 2510238627,
+          "name": "Rthro Run",
+          "assetType": {
+            "id": 53,
+            "name": "RunAnimation"
+          },
+          "currentVersionId": 13806699940
+        },
+        {
+          "id": 2510240941,
+          "name": "Rthro Swim",
+          "assetType": {
+            "id": 54,
+            "name": "SwimAnimation"
+          },
+          "currentVersionId": 13806699946
+        },
+        {
+          "id": 2510242378,
+          "name": "Rthro Walk",
+          "assetType": {
+            "id": 55,
+            "name": "WalkAnimation"
+          },
+          "currentVersionId": 13806699951
+        },
+        {
+          "id": 10638267973,
+          "name": "Stevie Standard - Head",
+          "assetType": {
+            "id": 79,
+            "name": "DynamicHead"
+          },
+          "currentVersionId": 25035095467
+        },
+        {
+          "id": 10647852134,
+          "name": "DefaultFallBackMood",
+          "assetType": {
+            "id": 78,
+            "name": "MoodAnimation"
+          },
+          "currentVersionId": 18941427668
+        },
+        {
+          "id": 12995014400,
+          "name": "Man - Left Arm",
+          "assetType": {
+            "id": 29,
+            "name": "LeftArm"
+          },
+          "currentVersionId": 16754708924
+        },
+        {
+          "id": 12995015868,
+          "name": "Man - Left Leg",
+          "assetType": {
+            "id": 30,
+            "name": "LeftLeg"
+          },
+          "currentVersionId": 16754710931
+        },
+        {
+          "id": 12995017412,
+          "name": "Man - Right Arm",
+          "assetType": {
+            "id": 28,
+            "name": "RightArm"
+          },
+          "currentVersionId": 16754713361
+        },
+        {
+          "id": 12995018829,
+          "name": "Man - Right Leg",
+          "assetType": {
+            "id": 31,
+            "name": "RightLeg"
+          },
+          "currentVersionId": 16754715470
+        },
+        {
+          "id": 12995020128,
+          "name": "Man - Torso",
+          "assetType": {
+            "id": 27,
+            "name": "Torso"
+          },
+          "currentVersionId": 16754717279
+        }
+      ],
+      "defaultShirtApplied": false,
+      "defaultPantsApplied": false,
+      "emotes": []
+    },
+    "body_colors": {
+      "headColorId": 194,
+      "torsoColorId": 23,
+      "rightArmColorId": 194,
+      "leftArmColorId": 194,
+      "rightLegColorId": 102,
+      "leftLegColorId": 102
+    },
+    "thumbnails": {
+      "headshot": {
+        "data": [
+          {
+            "targetId": 1,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-310966282D3529E36976BF6B07B1DC90-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      },
+      "bust": {
+        "data": [
+          {
+            "targetId": 1,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-310966282D3529E36976BF6B07B1DC90-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      },
+      "full_body": {
+        "data": [
+          {
+            "targetId": 1,
+            "state": "Completed",
+            "imageUrl": "https://tr.rbxcdn.com/30DAY-Avatar-310966282D3529E36976BF6B07B1DC90-Png/720/720/Avatar/Png/noFilter",
+            "version": "TN3"
+          }
+        ]
+      }
+    },
+    "games": {
+      "previousPageCursor": null,
+      "nextPageCursor": null,
+      "data": [
+        {
+          "id": 13058,
+          "name": "Classic: Crossroads",
+          "description": "The classic ROBLOX level is back!",
+          "creator": {
+            "id": 1,
+            "type": "User"
+          },
+          "rootPlace": {
+            "id": 1818,
+            "type": "Place"
+          },
+          "created": "2013-10-31T22:02:54.103Z",
+          "updated": "2019-04-03T00:05:22.203Z",
+          "placeVisits": 11634600
+        }
+      ]
+    },
+    "groups": {
+      "data": [
+        {
+          "group": {
+            "id": 127081,
+            "name": "Roblox Wiki",
+            "memberCount": 3245074,
+            "hasVerifiedBadge": false
+          },
+          "role": {
+            "id": 676373,
+            "name": "Wiki System Operator",
+            "rank": 254
+          }
+        },
+        {
+          "group": {
+            "id": 4111519,
+            "name": "Roblox Presents",
+            "memberCount": 97,
+            "hasVerifiedBadge": true
+          },
+          "role": {
+            "id": 106072807,
+            "name": "Roblox",
+            "rank": 100
+          }
+        },
+        {
+          "group": {
+            "id": 7384468,
+            "name": "Roblox Arena Events",
+            "memberCount": 1000,
+            "hasVerifiedBadge": false
+          },
+          "role": {
+            "id": 46417776,
+            "name": "Member",
+            "rank": 1
+          }
+        }
+      ]
+    }
+  }
+}

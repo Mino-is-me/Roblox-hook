@@ -1,0 +1,56 @@
+{
+  "user_info": {
+    "description": "",
+    "created": "2016-10-26T11:16:51.007Z",
+    "isBanned": false,
+    "externalAppDisplayName": null,
+    "hasVerifiedBadge": false,
+    "id": 174809561,
+    "name": "chochou",
+    "displayName": "chochou"
+  },
+  "avatar_3d_metadata": {
+    "camera": {
+      "position": {
+        "x": -2.36188,
+        "y": 105.15,
+        "z": -4.56304
+      },
+      "direction": {
+        "x": -0.40558,
+        "y": 0.40558,
+        "z": -0.819152
+      },
+      "fov": 70.0
+    },
+    "aabb": {
+      "min": {
+        "x": -1.28748,
+        "y": 100.01,
+        "z": -0.736455
+      },
+      "max": {
+        "x": 1.27059,
+        "y": 105.558,
+        "z": 1.13822
+      }
+    },
+    "mtl": "30DAY-00653387e36e4cacf40da2ee9ffb3ee1",
+    "obj": "30DAY-28ff0ead7baec75870dc693d9f95a04d",
+    "textures": [
+      "30DAY-dd2f2e9db6f1d01a9f23e3cf5371baba",
+      "30DAY-213af3499d275e632af6971f07e26415",
+      "30DAY-8f064f8a8f4eb25503a0847388f4e70c",
+      "30DAY-34ed133e250f305e704a5a4b328a50f6",
+      "30DAY-3073b706c8ef18df35dd326b171d59f4",
+      "30DAY-53fcd7ebbf8c3bc7df9f400bd5397b8a",
+      "30DAY-2106602027935597a06390c8e1eb17b4"
+    ]
+  },
+  "download_timestamp": "2025-09-17 12:00:10",
+  "api_info": {
+    "source": "Roblox Avatar 3D API",
+    "endpoint": "https://thumbnails.roblox.com/v1/users/avatar-3d",
+    "cdn_calculation": "Updated 2024 hash algorithm"
+  }
+}

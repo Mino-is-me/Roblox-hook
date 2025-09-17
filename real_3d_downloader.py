@@ -26,7 +26,43 @@ class RobloxAvatar3DDownloader:
         
         # 세션 생성
         self.session = requests.Session()
-        self.session.headers.update({
+        self.session.headers.upda                    readme_content += f"- **{group_name}**: {role_name}\n"
+
+        # OBJ 구조 정보 추가
+        if extended_info and "obj_structure" in extended_info:
+            obj_struct = extended_info["obj_structure"]
+            readme_content += f"\n## 🎯 3D 모델 구조 정보\n"
+            readme_content += f"- **버텍스**: {obj_struct.get('vertices', 0):,}개\n"
+            readme_content += f"- **면**: {obj_struct.get('faces', 0):,}개\n"
+            readme_content += f"- **그룹**: {len(obj_struct.get('groups', []))}개\n"
+            readme_content += f"- **재질**: {len(obj_struct.get('materials', []))}개\n"
+            
+            # 바디 파트 정보
+            body_parts = obj_struct.get('body_parts', [])
+            if body_parts:
+                readme_content += f"\n### 🚶 아바타 바디 파트\n"
+                part_types = {}
+                for part in body_parts:
+                    part_type = part.get('type', 'unknown')
+                    if part_type not in part_types:
+                        part_types[part_type] = []
+                    part_types[part_type].append(part.get('name', 'Unknown'))
+                
+                for part_type, names in part_types.items():
+                    part_names = ', '.join(names)
+                    readme_content += f"- **{part_type.replace('_', ' ').title()}**: {part_names}\n"
+            
+            # 사용된 재질들
+            materials = obj_struct.get('materials', [])
+            if materials:
+                readme_content += f"\n### 🎨 사용된 재질들\n"
+                for material in materials[:10]:  # 처음 10개만
+                    readme_content += f"- {material}\n"
+                if len(materials) > 10:
+                    readme_content += f"- ... 그리고 {len(materials) - 10}개 더\n"
+
+        readme_content += f"""
+## 📐 3D 모델 정보
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
     
@@ -365,8 +401,16 @@ class RobloxAvatar3DDownloader:
             else:
                 print("🎨 텍스처 정보 없음")
         
-        # 메타데이터 저장
-        self.save_metadata(user_info, metadata, user_folder)
+        # 확장 아바타 정보 수집
+        extended_info = self.get_extended_avatar_info(user_id)
+        
+        # OBJ 파일 구조 분석 (Attachment 정보 포함)
+        if obj_hash and (user_folder / "avatar.obj").exists():
+            obj_structure = self.analyze_obj_structure(user_folder / "avatar.obj")
+            extended_info["obj_structure"] = obj_structure
+        
+        # 메타데이터 저장 (확장 정보 포함)
+        self.save_metadata(user_info, metadata, user_folder, extended_info)
         
         # 핵심 파일 다운로드 여부 확인
         core_files_success = 0
@@ -403,7 +447,215 @@ class RobloxAvatar3DDownloader:
         
         return download_success
     
-    def save_metadata(self, user_info: Dict, metadata: Dict, user_folder: Path):
+    def get_extended_avatar_info(self, user_id: int) -> dict:
+        """
+        사용자 아바타의 확장 정보 수집
+        
+        Args:
+            user_id (int): 사용자 ID
+            
+        Returns:
+            dict: 확장된 아바타 정보
+        """
+        print(f"📊 확장 아바타 정보 수집 중...")
+        
+        extended_info = {
+            "user_id": user_id,
+            "collected_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "api_responses": {}
+        }
+        
+        # 1. 아바타 구성 정보 (가장 중요)
+        try:
+            print("   👤 아바타 구성 정보...")
+            response = self.session.get(f"https://avatar.roblox.com/v1/users/{user_id}/avatar")
+            if response.status_code == 200:
+                extended_info["api_responses"]["avatar_config"] = response.json()
+                print("   ✅ 아바타 구성 정보 수집 완료")
+            else:
+                print(f"   ⚠️ 아바타 구성 정보 실패: {response.status_code}")
+        except Exception as e:
+            print(f"   ❌ 아바타 구성 오류: {e}")
+            
+        # 2. 현재 착용 중인 아바타 아이템들
+        try:
+            print("   🎽 착용 아이템 정보...")
+            response = self.session.get(f"https://avatar.roblox.com/v1/users/{user_id}/currently-wearing")
+            if response.status_code == 200:
+                extended_info["api_responses"]["currently_wearing"] = response.json()
+                print("   ✅ 착용 아이템 정보 수집 완료")
+            elif response.status_code == 429:
+                print("   ⚠️ 착용 아이템 정보 - API 제한 (429)")
+            else:
+                print(f"   ⚠️ 착용 아이템 정보 실패: {response.status_code}")
+        except Exception as e:
+            print(f"   ❌ 착용 아이템 오류: {e}")
+            
+        # 3. 다양한 썸네일 정보
+        try:
+            print("   📸 썸네일 정보...")
+            response = self.session.get(f"https://thumbnails.roblox.com/v1/users/avatar?userIds={user_id}&size=720x720&format=Png&isCircular=false")
+            if response.status_code == 200:
+                extended_info["api_responses"]["thumbnails"] = response.json()
+                print("   ✅ 썸네일 정보 수집 완료")
+            else:
+                print(f"   ⚠️ 썸네일 정보 실패: {response.status_code}")
+        except Exception as e:
+            print(f"   ❌ 썸네일 오류: {e}")
+            
+        # 4. 게임 정보 (공개 게임만)
+        try:
+            print("   🎮 게임 정보...")
+            response = self.session.get(f"https://games.roblox.com/v2/users/{user_id}/games?accessFilter=Public&limit=10")
+            if response.status_code == 200:
+                games_data = response.json()
+                if games_data.get("data"):
+                    extended_info["api_responses"]["games"] = games_data
+                    print(f"   ✅ 게임 정보 수집 완료 ({len(games_data['data'])}개)")
+                else:
+                    print("   📝 공개 게임 없음")
+            else:
+                print(f"   ⚠️ 게임 정보 실패: {response.status_code}")
+        except Exception as e:
+            print(f"   ❌ 게임 정보 오류: {e}")
+            
+        # 5. 그룹 정보
+        try:
+            print("   👥 그룹 정보...")
+            response = self.session.get(f"https://groups.roblox.com/v2/users/{user_id}/groups/roles")
+            if response.status_code == 200:
+                groups_data = response.json()
+                if groups_data.get("data"):
+                    extended_info["api_responses"]["groups"] = groups_data
+                    print(f"   ✅ 그룹 정보 수집 완료 ({len(groups_data['data'])}개)")
+                else:
+                    print("   📝 소속 그룹 없음")
+            else:
+                print(f"   ⚠️ 그룹 정보 실패: {response.status_code}")
+        except Exception as e:
+            print(f"   ❌ 그룹 정보 오류: {e}")
+            
+        return extended_info
+    
+    def analyze_obj_structure(self, obj_path: Path) -> dict:
+        """
+        OBJ 파일의 구조를 분석하여 attachment 정보 추출
+        
+        Args:
+            obj_path (Path): OBJ 파일 경로
+            
+        Returns:
+            dict: OBJ 구조 분석 결과
+        """
+        print(f"   🎯 OBJ 파일 구조 분석...")
+        
+        structure = {
+            "file_path": str(obj_path),
+            "analyzed_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "groups": [],
+            "objects": [],
+            "materials": [],
+            "vertices": 0,
+            "faces": 0,
+            "normals": 0,
+            "texture_coords": 0,
+            "body_parts": []
+        }
+        
+        try:
+            with open(obj_path, 'r', encoding='utf-8') as f:
+                for line_num, line in enumerate(f, 1):
+                    line = line.strip()
+                    
+                    if not line or line.startswith('#'):
+                        continue
+                    
+                    # 버텍스
+                    if line.startswith('v '):
+                        structure["vertices"] += 1
+                    
+                    # 노말
+                    elif line.startswith('vn '):
+                        structure["normals"] += 1
+                    
+                    # 텍스처 좌표
+                    elif line.startswith('vt '):
+                        structure["texture_coords"] += 1
+                    
+                    # 면
+                    elif line.startswith('f '):
+                        structure["faces"] += 1
+                    
+                    # 그룹 (아바타 파트)
+                    elif line.startswith('g '):
+                        group_name = line[2:].strip()
+                        group_info = {
+                            "name": group_name,
+                            "line": line_num,
+                            "type": self.classify_body_part(group_name)
+                        }
+                        structure["groups"].append(group_info)
+                        
+                        # 바디 파트 분류
+                        if group_info["type"] != "unknown":
+                            structure["body_parts"].append(group_info)
+                    
+                    # 오브젝트
+                    elif line.startswith('o '):
+                        obj_name = line[2:].strip()
+                        structure["objects"].append({
+                            "name": obj_name,
+                            "line": line_num
+                        })
+                    
+                    # 재질
+                    elif line.startswith('usemtl '):
+                        material = line[7:].strip()
+                        if material not in structure["materials"]:
+                            structure["materials"].append(material)
+            
+            print(f"   ✅ OBJ 구조 분석 완료:")
+            print(f"      - 버텍스: {structure['vertices']:,}개")
+            print(f"      - 면: {structure['faces']:,}개")
+            print(f"      - 그룹: {len(structure['groups'])}개")
+            print(f"      - 바디 파트: {len(structure['body_parts'])}개")
+            print(f"      - 재질: {len(structure['materials'])}개")
+            
+        except Exception as e:
+            print(f"   ❌ OBJ 분석 오류: {e}")
+            structure["error"] = str(e)
+        
+        return structure
+    
+    def classify_body_part(self, group_name: str) -> str:
+        """그룹 이름으로 바디 파트 분류"""
+        name_lower = group_name.lower()
+        
+        # 로블록스 아바타 파트 매핑
+        part_mappings = {
+            "head": ["player1", "head"],
+            "torso": ["player2", "torso", "chest"],
+            "left_arm": ["player3", "leftarm", "left_arm"],
+            "right_arm": ["player4", "rightarm", "right_arm"],
+            "left_leg": ["player5", "leftleg", "left_leg"],
+            "right_leg": ["player6", "rightleg", "right_leg"],
+            "hat": ["player7", "hat", "cap", "helmet"],
+            "hair": ["player8", "hair"],
+            "face": ["player9", "face"],
+            "shirt": ["player10", "shirt", "top"],
+            "pants": ["player11", "pants", "bottom"],
+            "shoes": ["player12", "shoes", "boot"],
+            "accessory": ["player13", "player14", "player15", "accessory", "gear"],
+            "handle": ["handle", "grip", "tool"]
+        }
+        
+        for part_type, keywords in part_mappings.items():
+            if any(keyword in name_lower for keyword in keywords):
+                return part_type
+        
+        return "unknown"
+
+    def save_metadata(self, user_info: Dict, metadata: Dict, user_folder: Path, extended_info: Optional[Dict] = None):
         """메타데이터와 사용법 저장"""
         # 메타데이터 저장
         full_metadata = {
@@ -417,11 +669,19 @@ class RobloxAvatar3DDownloader:
             }
         }
         
+        # 확장 정보가 있으면 추가
+        if extended_info:
+            full_metadata["extended_avatar_info"] = extended_info
+        
         metadata_file = user_folder / "metadata.json"
         with open(metadata_file, 'w', encoding='utf-8') as f:
             json.dump(full_metadata, f, indent=2, ensure_ascii=False)
         
-        # 사용법 안내 생성
+        # 확장 사용법 안내 생성 (확장 정보 포함)
+        self.create_extended_readme(user_info, metadata, user_folder, extended_info)
+    
+    def create_extended_readme(self, user_info: Dict, metadata: Dict, user_folder: Path, extended_info: Optional[Dict] = None):
+        """확장된 사용법 README 생성"""
         camera_info = metadata.get("camera", {})
         aabb_info = metadata.get("aabb", {})
         
@@ -431,7 +691,7 @@ class RobloxAvatar3DDownloader:
 - `avatar.obj`: 3D 메시 파일 (Wavefront OBJ 형식)
 - `avatar.mtl`: 재질 정보 파일
 - `textures/`: 텍스처 이미지들
-- `metadata.json`: 전체 메타데이터
+- `metadata.json`: 전체 메타데이터 (확장 정보 포함)
 - `README.md`: 이 사용법 파일
 
 ## 🎮 유저 정보
@@ -439,8 +699,68 @@ class RobloxAvatar3DDownloader:
 - **유저 ID**: {user_info.get('id')}
 - **가입일**: {user_info.get('created', 'N/A')}
 - **다운로드 시간**: {time.strftime('%Y-%m-%d %H:%M:%S')}
+"""
 
-## 📐 모델 정보
+        # 확장 아바타 정보 추가
+        if extended_info and "api_responses" in extended_info:
+            readme_content += "\n## � 아바타 상세 정보\n"
+            
+            # 아바타 구성 정보
+            avatar_config = extended_info["api_responses"].get("avatar_config", {})
+            if avatar_config:
+                readme_content += f"- **아바타 타입**: {avatar_config.get('playerAvatarType', 'N/A')}\n"
+                
+                # 바디 색상
+                if "bodyColors" in avatar_config:
+                    colors = avatar_config["bodyColors"]
+                    readme_content += "- **바디 색상**:\n"
+                    color_names = {
+                        'headColorId': '머리',
+                        'torsoColorId': '몸통',
+                        'rightArmColorId': '오른팔',
+                        'leftArmColorId': '왼팔',
+                        'rightLegColorId': '오른다리',
+                        'leftLegColorId': '왼다리'
+                    }
+                    for part, color_id in colors.items():
+                        part_name = color_names.get(part, part)
+                        readme_content += f"  - {part_name}: 색상 ID {color_id}\n"
+                
+                # 착용 아이템
+                if "assets" in avatar_config:
+                    items = avatar_config["assets"]
+                    readme_content += f"- **착용 아이템** ({len(items)}개):\n"
+                    for item in items[:5]:  # 처음 5개만
+                        item_name = item.get('name', 'Unknown')
+                        item_type = item.get('assetType', {}).get('name', 'Unknown')
+                        readme_content += f"  - {item_name} ({item_type})\n"
+                    if len(items) > 5:
+                        readme_content += f"  - ... 그리고 {len(items) - 5}개 더\n"
+            
+            # 게임 정보
+            games = extended_info["api_responses"].get("games", {})
+            if games and "data" in games:
+                game_count = len(games["data"])
+                readme_content += f"\n## 🎮 제작한 게임 ({game_count}개)\n"
+                for game in games["data"][:3]:  # 처음 3개만
+                    name = game.get("name", "Untitled")
+                    plays = game.get("placeVisits", 0)
+                    readme_content += f"- **{name}**: {plays:,} 플레이\n"
+            
+            # 그룹 정보
+            groups = extended_info["api_responses"].get("groups", {})
+            if groups and "data" in groups:
+                group_count = len(groups["data"])
+                readme_content += f"\n## 👥 소속 그룹 ({group_count}개)\n"
+                for group_data in groups["data"][:3]:  # 처음 3개만
+                    group = group_data.get("group", {})
+                    role = group_data.get("role", {})
+                    group_name = group.get("name", "Unknown Group")
+                    role_name = role.get("name", "Member")
+                    readme_content += f"- **{group_name}**: {role_name}\n"
+
+        readme_content += f"""
+## �📐 3D 모델 정보
 - **카메라 위치**: {camera_info.get('position', 'N/A')}
 - **카메라 FOV**: {camera_info.get('fov', 'N/A')}
 - **바운딩 박스**: {aabb_info.get('min', 'N/A')} ~ {aabb_info.get('max', 'N/A')}
