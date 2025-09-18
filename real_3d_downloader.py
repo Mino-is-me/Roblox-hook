@@ -30,44 +30,6 @@ class RobloxAvatar3DDownloader:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
-
-        # OBJ 구조 정보 추가
-        if extended_info and "obj_structure" in extended_info:
-            obj_struct = extended_info["obj_structure"]
-            readme_content += f"\n## 🎯 3D 모델 구조 정보\n"
-            readme_content += f"- **버텍스**: {obj_struct.get('vertices', 0):,}개\n"
-            readme_content += f"- **면**: {obj_struct.get('faces', 0):,}개\n"
-            readme_content += f"- **그룹**: {len(obj_struct.get('groups', []))}개\n"
-            readme_content += f"- **재질**: {len(obj_struct.get('materials', []))}개\n"
-            
-            # 바디 파트 정보
-            body_parts = obj_struct.get('body_parts', [])
-            if body_parts:
-                readme_content += f"\n### 🚶 아바타 바디 파트\n"
-                part_types = {}
-                for part in body_parts:
-                    part_type = part.get('type', 'unknown')
-                    if part_type not in part_types:
-                        part_types[part_type] = []
-                    part_types[part_type].append(part.get('name', 'Unknown'))
-                
-                for part_type, names in part_types.items():
-                    part_names = ', '.join(names)
-                    readme_content += f"- **{part_type.replace('_', ' ').title()}**: {part_names}\n"
-            
-            # 사용된 재질들
-            materials = obj_struct.get('materials', [])
-            if materials:
-                readme_content += f"\n### 🎨 사용된 재질들\n"
-                for material in materials[:10]:  # 처음 10개만
-                    readme_content += f"- {material}\n"
-                if len(materials) > 10:
-                    readme_content += f"- ... 그리고 {len(materials) - 10}개 더\n"
-
-        readme_content += f"""
-## 📐 3D 모델 정보
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
     
     def calculate_cdn_url(self, hash_id: str) -> str:
         """
