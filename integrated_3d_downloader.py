@@ -10,6 +10,7 @@ import json
 from typing import Optional, List, Dict, Tuple
 from pathlib import Path
 import time
+from body_part_mapping_parser import BodyPartMapper
 
 class RobloxAvatar3DDownloaderIntegrated:
     """로블록스 3D 아바타 다운로더 (Attachment 정보 통합)"""
@@ -311,6 +312,41 @@ class RobloxAvatar3DDownloaderIntegrated:
         
         return "unknown"
     
+    def generate_body_part_mapping(self, user_info: Dict, obj_structure: Dict, user_folder: Path) -> bool:
+        """바디 파트 매핑 텍스트 파일 생성"""
+        try:
+            print("   📋 바디 파트 매핑 텍스트 생성...")
+            
+            # BodyPartMapper 초기화
+            mapper = BodyPartMapper()
+            
+            # 아바타 데이터 준비 (BodyPartMapper가 기대하는 형식으로)
+            avatar_data = {
+                'user_id': user_info.get('id'),
+                'username': user_info.get('name'),
+                'display_name': user_info.get('displayName'),
+                'created_at': time.strftime('%Y-%m-%d %H:%M:%S'),
+                'obj_path': obj_structure.get('file_path'),
+                'vertices': obj_structure.get('vertices', 0),
+                'faces': obj_structure.get('faces', 0),
+                'groups': obj_structure.get('groups', [])
+            }
+            
+            # 바디 파트 매핑 텍스트 파일 생성
+            output_path = user_folder / "BODY_PART_MAPPING.txt"
+            success = mapper.create_body_part_mapping_text(avatar_data, output_path)
+            
+            if success:
+                print(f"   ✅ 바디 파트 매핑 파일 생성: {output_path.name}")
+                return True
+            else:
+                print("   ❌ 바디 파트 매핑 파일 생성 실패")
+                return False
+                
+        except Exception as e:
+            print(f"   ❌ 바디 파트 매핑 생성 오류: {e}")
+            return False
+    
     def download_file_from_hash(self, hash_id: str, file_path: Path, file_type: str = "파일") -> bool:
         """해시 ID로부터 파일 다운로드 (향상된 재시도 로직)"""
         # 브라우저 요청처럼 보이도록 헤더 추가
@@ -471,6 +507,9 @@ class RobloxAvatar3DDownloaderIntegrated:
         if obj_hash and (user_folder / "avatar.obj").exists():
             obj_structure = self.analyze_obj_structure(user_folder / "avatar.obj")
             extended_info["obj_structure"] = obj_structure
+            
+            # 바디 파트 매핑 생성
+            self.generate_body_part_mapping(user_info, obj_structure, user_folder)
         
         # 메타데이터 저장 (확장 정보 포함)
         self.save_integrated_metadata(user_info, metadata, user_folder, extended_info)
