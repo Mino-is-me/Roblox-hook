@@ -1,0 +1,8 @@
+# Test outputs and temporary files
+test_integration_output/
+demo_output/
+live_test_download/
+test1/
+test2/
+*.pyc
+__pycache__/
