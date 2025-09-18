@@ -10,6 +10,7 @@ import json
 from typing import Optional, List, Dict, Tuple
 from pathlib import Path
 import time
+from body_part_mapping_parser import BodyPartMapper
 
 class RobloxAvatar3DDownloader:
     """로블록스 3D 아바타 다운로더 (최신 API 사용)"""
@@ -26,43 +27,7 @@ class RobloxAvatar3DDownloader:
         
         # 세션 생성
         self.session = requests.Session()
-        self.session.headers.upda                    readme_content += f"- **{group_name}**: {role_name}\n"
-
-        # OBJ 구조 정보 추가
-        if extended_info and "obj_structure" in extended_info:
-            obj_struct = extended_info["obj_structure"]
-            readme_content += f"\n## 🎯 3D 모델 구조 정보\n"
-            readme_content += f"- **버텍스**: {obj_struct.get('vertices', 0):,}개\n"
-            readme_content += f"- **면**: {obj_struct.get('faces', 0):,}개\n"
-            readme_content += f"- **그룹**: {len(obj_struct.get('groups', []))}개\n"
-            readme_content += f"- **재질**: {len(obj_struct.get('materials', []))}개\n"
-            
-            # 바디 파트 정보
-            body_parts = obj_struct.get('body_parts', [])
-            if body_parts:
-                readme_content += f"\n### 🚶 아바타 바디 파트\n"
-                part_types = {}
-                for part in body_parts:
-                    part_type = part.get('type', 'unknown')
-                    if part_type not in part_types:
-                        part_types[part_type] = []
-                    part_types[part_type].append(part.get('name', 'Unknown'))
-                
-                for part_type, names in part_types.items():
-                    part_names = ', '.join(names)
-                    readme_content += f"- **{part_type.replace('_', ' ').title()}**: {part_names}\n"
-            
-            # 사용된 재질들
-            materials = obj_struct.get('materials', [])
-            if materials:
-                readme_content += f"\n### 🎨 사용된 재질들\n"
-                for material in materials[:10]:  # 처음 10개만
-                    readme_content += f"- {material}\n"
-                if len(materials) > 10:
-                    readme_content += f"- ... 그리고 {len(materials) - 10}개 더\n"
-
-        readme_content += f"""
-## 📐 3D 모델 정보
+        self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
     
@@ -408,6 +373,9 @@ class RobloxAvatar3DDownloader:
         if obj_hash and (user_folder / "avatar.obj").exists():
             obj_structure = self.analyze_obj_structure(user_folder / "avatar.obj")
             extended_info["obj_structure"] = obj_structure
+            
+            # 바디 파트 매핑 생성
+            self.generate_body_part_mapping(user_info, obj_structure, user_folder)
         
         # 메타데이터 저장 (확장 정보 포함)
         self.save_metadata(user_info, metadata, user_folder, extended_info)
@@ -654,6 +622,41 @@ class RobloxAvatar3DDownloader:
                 return part_type
         
         return "unknown"
+
+    def generate_body_part_mapping(self, user_info: Dict, obj_structure: Dict, user_folder: Path) -> bool:
+        """바디 파트 매핑 텍스트 파일 생성"""
+        try:
+            print("   📋 바디 파트 매핑 텍스트 생성...")
+            
+            # BodyPartMapper 초기화
+            mapper = BodyPartMapper()
+            
+            # 아바타 데이터 준비 (BodyPartMapper가 기대하는 형식으로)
+            avatar_data = {
+                'user_id': user_info.get('id'),
+                'username': user_info.get('name'),
+                'display_name': user_info.get('displayName'),
+                'created_at': time.strftime('%Y-%m-%d %H:%M:%S'),
+                'obj_path': obj_structure.get('file_path'),
+                'vertices': obj_structure.get('vertices', 0),
+                'faces': obj_structure.get('faces', 0),
+                'groups': obj_structure.get('groups', [])
+            }
+            
+            # 바디 파트 매핑 텍스트 파일 생성
+            output_path = user_folder / "BODY_PART_MAPPING.txt"
+            success = mapper.create_body_part_mapping_text(avatar_data, output_path)
+            
+            if success:
+                print(f"   ✅ 바디 파트 매핑 파일 생성: {output_path.name}")
+                return True
+            else:
+                print("   ❌ 바디 파트 매핑 파일 생성 실패")
+                return False
+                
+        except Exception as e:
+            print(f"   ❌ 바디 파트 매핑 생성 오류: {e}")
+            return False
 
     def save_metadata(self, user_info: Dict, metadata: Dict, user_folder: Path, extended_info: Optional[Dict] = None):
         """메타데이터와 사용법 저장"""
